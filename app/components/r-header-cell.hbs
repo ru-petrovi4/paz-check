@@ -1,0 +1,10 @@
+<div class="diag_header_cell">
+  <div class="vert_text diag_effect_vert">
+    {{@column.value.name}}
+  </div>
+  <div class="{{if this.isFaultTriggered 'result_pill_str'}}
+    {{if this.isSuccessTriggered 'result_pill_tr'}}
+    {{if this.isLateTriggered 'result_pill_ltr'}}
+    {{if this.isNotTriggered 'result_pill_ntr'}}
+    ">{{@column.value.state}}</div>
+</div>

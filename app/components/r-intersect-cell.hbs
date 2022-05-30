@@ -1,0 +1,9 @@
+<div class="diag_cell">
+  <div class="
+{{if this.isSuccessFirstTriggered 'result_pill_ftr'}}
+    {{if this.isSuccessTriggered 'result_pill_tr'}}
+    {{if this.isLateTriggered 'result_pill_ltr'}}
+    {{if this.isNotTriggered 'result_pill_ntr'}}
+    {{if this.isNotActivated 'result_pill'}}
+">{{@value.triggeredtype}}</div>
+</div>

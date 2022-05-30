@@ -1,0 +1,15 @@
+{{page-title "Safety"}}
+<div class="working_wrapper">
+  <div class="safety_list_area">
+    <ul>
+      {{#each this.rootSections as |section|}}
+        <SaferyList @section={{section}} @updater={{this.updateCurrent}}></SaferyList>
+      {{/each}}
+    </ul>
+  </div>
+  <div class="safety_thermo">
+    {{#each this.currentSection.children as |section|}}
+      <SaferyPlate @section={{section}}></SaferyPlate>
+    {{/each}}
+  </div>
+</div>

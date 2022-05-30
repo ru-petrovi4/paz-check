@@ -1,0 +1,59 @@
+{{#if this.isModal}}
+  <ModalDialog
+    @containerClass='paz_modal_lic_container'
+    @overlayClass='paz_overlay'
+    @onClickOverlay= {{this.onCancel}}
+  >
+    <div class="paz_modal_title">
+      {{#if this.isNew}}
+        {{t "diagrams.diagram.newitersect"}}
+      {{else}}
+        {{t "diagrams.diagram.editintersect"}} {{@meta.effect.name}}
+      {{/if}}
+    </div>
+    <div class="paz_modal_working modal_flex_wrapper">
+      <div>
+        {{t "diagrams.diagram.cause"}}
+        {{#each this.cause as |item|}}
+          <div>
+            <span>{{item.tag.name}}</span>
+            {{#if item.value}}
+              <span>{{item.value}}</span>
+            {{else}}
+              <span>{{item.identifier}}</span>
+            {{/if}}
+          </div>
+        {{/each}}
+      </div>
+      <div>
+        {{t "diagrams.diagram.effect"}}
+        <div>
+          <span>{{this.effect.tag.name}}</span>
+          {{#if this.effect.value}}
+            <span>{{this.effect.value}}</span>
+          {{else}}
+            <span>{{this.effect.identifier}}</span>
+          {{/if}}
+        </div>
+      </div>
+    </div>
+    <div class="lic_modal_footer">
+      {{#if this.isNew}}
+        <button {{on 'click' this.onSave}} type="button" class="btn_primary btn_paz_modal login_form_item">
+          {{t "diagrams.dadd"}}
+        </button>
+      {{else}}
+        <button {{on 'click' this.onDelete}} type="button" class="btn_warn login_form_item">
+          {{t "admin.office.modal.delbtn"}}
+        </button>
+      {{/if}}
+      <button {{on 'click' this.onCancel}} type="button" class="btn_secondary btn_paz_modal login_form_item">
+        {{t "admin.office.modal.cancelbtn"}}
+      </button>
+    </div>
+  </ModalDialog>
+{{/if}}
+
+<div class="diag_cell" {{on 'click' this.onClick}}>
+  {{this.displ}}
+</div>

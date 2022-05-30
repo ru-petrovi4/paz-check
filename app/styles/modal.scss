@@ -1,0 +1,70 @@
+/*!
+ * Copyright (c) 2021.
+ * All rights reserved by Simcode
+ */
+
+.paz_modal_lic_container {
+  //width: 330px;
+  //height: 280px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: none;
+  z-index: 1050;
+  padding: 0;
+}
+
+.paz_overlay {
+  background-color: rgba($color_modal_overlay, 0.5);
+}
+
+.paz_modal_title {
+  width: 100%;
+  height: 70px;
+  font-weight: $font_weight_dark;
+  font-size: $font_size_xx;
+  line-height: 70px;
+  color: $color_primary;
+  padding-left: $margin_normal;
+  border-bottom: 1px solid $color_border_gray;
+}
+
+.paz_modal_working {
+  width: 100%;
+  border-bottom: 1px solid $color_border_gray;
+  padding: $margin_normal $margin_normal;
+}
+
+.modal_flex_wrapper {
+  @extend %flex-shared;
+  justify-content: space-between;
+}
+
+.lic_modal_label {
+  font-weight: $font_weight_dark;
+  font-size: $font_size_x;
+  line-height: 19px;
+  color: $color_primary;
+  margin-bottom: 5px  ;
+}
+
+.lic_modal_input {
+  width: 282px;
+  border: 1px solid $color_secondary;
+}
+
+.lic_modal_footer {
+  width: 100%;
+  padding: $margin_sm $margin_normal;
+  @extend %flex-shared;
+  justify-content: space-between;
+}
+//User info modal
+.paz_modal_usr_info {
+  width: 789px;
+  height: 580px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: none;
+  z-index: 1050;
+  padding: 0;
+}

@@ -1,0 +1,30 @@
+/*!
+ * Copyright (c) 2021.
+ * All rights reserved by Simcode
+ */
+
+.grid_holder {
+  @extend %flex-shared;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: scroll;
+  flex: 1 1 1px;
+}
+
+.grid_row {
+  @extend %flex-shared;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.grid_row:first-child {
+  //position: fixed;
+  //z-index: 2;
+  //background-color: white;
+}
+.fake_div {
+  margin-top: 186px;
+}
+.grid_header_cell {
+  display: block;
+}

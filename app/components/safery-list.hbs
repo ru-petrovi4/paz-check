@@ -1,0 +1,20 @@
+{{#if this.hasChildren}}
+  <li {{on 'click' this.toggleOpen}}><span class="safety_ind
+  {{if this.isGreen 'safety_ind_green'}}
+    {{if this.isYellow 'safety_ind_yellow'}}
+    {{if this.isRed 'safety_ind_red'}}
+"></span> <span class="safety_ind_txt">{{@section.name}}</span></li>
+  {{#if this.isOpen}}
+    <ul>
+      {{#each @section.children as |child|}}
+        <SaferyList @section={{child}} @updater={{@updater}}></SaferyList>
+      {{/each}}
+    </ul>
+  {{/if}}
+{{else}}
+  <li><span class="safety_ind
+  {{if this.isGreen 'safety_ind_green'}}
+    {{if this.isYellow 'safety_ind_yellow'}}
+    {{if this.isRed 'safety_ind_red'}}
+"></span> <span class="safety_ind_txt">{{@section.name}}</span></li>
+{{/if}}

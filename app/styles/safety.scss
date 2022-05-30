@@ -1,0 +1,129 @@
+/*!
+ * Copyright (c) 2021.
+ * All rights reserved by Simcode
+ */
+
+.safety_list_area {
+  width: 600px;
+  height: calc(100vh - #{$header_height + $margin_xl});
+  background-color: $bg_color_secondary;
+  border-radius: 5px;
+  margin-top: $margin_sm;
+  margin-right: $margin_xs*1.5;
+  overflow: scroll;
+}
+
+.safety_list_area ul {
+  margin-left: $margin_normal;
+}
+
+.safety_list_area li {
+  padding-left: $margin_xs;
+  height: $form_elem_h_small;
+  line-height: $form_elem_h_small;
+  font-size: $font_size_sxx;
+  color: $color_primary;
+  border-radius: 5px;
+  border: 1px solid $color_border_gray;
+  vertical-align: center;
+}
+
+.safety_ind {
+  display: inline-block;
+  width: $form_elem_h_small - 2;
+  height: $form_elem_h_small - 2;
+  border-radius: 5px;
+}
+
+.safety_ind_txt {
+  display: inline-block;
+  height: $form_elem_h_small - 2;
+  vertical-align: top;
+}
+
+.safety_ind_green {
+  background-color: $color_success;
+}
+
+.safety_ind_yellow {
+  background-color: yellow;
+}
+
+.safety_ind_red {
+  background-color: $color_warn;
+}
+
+.safety_thermo {
+  height: calc(100vh - #{$header_height + $margin_xl});
+  background-color: $bg_color_secondary;
+  border-radius: 5px;
+  margin-top: $margin_sm;
+  margin-right: $margin_xs*1.5;
+  padding: $margin_sm;
+  overflow: scroll;
+  flex-grow: 1;
+  display: grid;
+  grid-gap: 10px;
+  grid-auto-columns: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.safety_plate {
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid $color_border_gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $font_size_sxx;
+  color: $color_primary;
+  text-align: center;
+  padding-left: $margin_sm;
+  padding-right: $margin_sm;
+}
+
+.safety_plate_green:before {
+  content: '';
+  background-color: $color_success;
+  position: absolute;
+  left: $margin_sm;
+  width: $margin_xs;
+  height: 100%;
+  margin-left: -$margin_sm;
+  text-align: left;
+  border-radius: 5px 0 0 5px;
+}
+
+.safety_plate_yellow:before {
+  content: '';
+  background-color: yellow;
+  position: absolute;
+  left: $margin_sm;
+  width: $margin_xs;
+  height: 100%;
+  margin-left: -$margin_sm;
+  text-align: left;
+  border-radius: 5px 0 0 5px;
+}
+
+.safety_plate_red:before {
+  content: '';
+  background-color: $color_warn;
+  position: absolute;
+  left: $margin_sm;
+  width: $margin_xs;
+  height: 100%;
+  margin-left: -$margin_sm;
+  text-align: left;
+  border-radius: 5px 0 0 5px;
+}
+.tl_holder {
+  height: calc(100vh - #{$header_info_size + $margin_normal});
+  background-color: white;
+  overflow-x: scroll;
+  text-align: center;
+}
+
+.tl_holder img {
+  height: calc(100vh - #{$header_info_size + $margin_normal});
+}

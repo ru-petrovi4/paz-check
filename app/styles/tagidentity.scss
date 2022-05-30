@@ -1,0 +1,50 @@
+/*!
+ * Copyright (c) 2021.
+ * All rights reserved by Simcode
+ */
+
+.ident_line {
+  @extend %flex-shared;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-left: $margin_normal;
+  margin-right: $margin_normal;
+  border-bottom: 1px solid $color_border_gray;
+  height: $form_elem_h_big;
+}
+
+.ident_line div {
+  font-size: $font_size_x;
+  line-height: $form_elem_h_big;
+}
+
+.ident_line div span {
+  margin-left: $margin_normal/2;
+}
+
+.ident_btn_exp {
+  border: none;
+  background-color: transparent;
+}
+
+.ident_line_details {
+  @extend %flex-shared;
+  flex-direction: column;
+  background-color: $color_secondary;
+  margin-left: $margin_normal;
+  margin-right: $margin_normal;
+  padding-left: $margin_normal;
+  padding-top: $margin_normal/2;
+  font-size: $font_size_x;
+  font-weight: $font_weight_normal;
+}
+.ident_line_details_item {
+  height: $form_elem_h_normal;
+  line-height: $form_elem_h_normal;
+}
+
+.ident_line_details_item > span:first-child {
+  display: inline-block;
+  color: $color_primary;
+  width: 126px;
+}

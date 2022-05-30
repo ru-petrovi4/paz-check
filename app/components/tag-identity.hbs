@@ -1,0 +1,40 @@
+<div class="ident_line">
+  <div>
+    {{this.caption}}
+    <button class="ident_btn_exp" type="button" {{on 'click' this.toggleDetails}}><span><img src="/images/btn_exp.svg" alt={{t "icons.copyicon"}}></span></button>
+  </div>
+  <div>
+    {{#if this.isEdit}}
+      <span class="icon_btn" {{on 'click' this.onSave}}><img src="/images/btn_save.svg" alt={{t "icons.editicon"}}></span>
+      <span class="icon_btn" {{on 'click' this.onCancel}}><img src="/images/btn_cancel.svg" alt={{t "icons.delicon"}}></span>
+    {{else}}
+      <span class="icon_btn" {{on 'click' this.onDelete}}><img src="/images/btn_del.svg" alt={{t "icons.delicon"}}></span>
+      <span class="icon_btn" {{on 'click' this.onEdit}}><img src="/images/btn_edit.svg" alt={{t "icons.editicon"}}></span>
+    {{/if}}
+  </div>
+</div>
+{{#if this.isDetail}}
+  <div class="ident_line_details">
+    <div class="ident_line_details_item"><span>{{t "tags.tag.identity.ident"}}</span>
+      {{#if this.isEdit}}
+        <Input @type="text" name="login" size="15" class="actuator_inp" @value={{@identity.identifier}}/>
+      {{else}}
+        <span>{{@identity.identifier}}</span>
+      {{/if}}
+    </div>
+    <div class="ident_line_details_item"><span>{{t "tags.tag.identity.eventtype"}}</span>
+      {{#if this.isEdit}}
+        <Input @type="text" name="login" size="15" class="actuator_inp" @value={{@identity.eventtype}}/>
+      {{else}}
+        <span>{{@identity.eventtype}}</span>
+      {{/if}}
+    </div>
+    <div class="ident_line_details_item"><span>{{t "tags.tag.identity.value"}}</span>
+      {{#if this.isEdit}}
+        <Input @type="text" name="login" size="15" class="actuator_inp" @value={{@identity.value}}/>
+      {{else}}
+        <span>{{@identity.value}}</span>
+      {{/if}}
+    </div>
+  </div>
+{{/if}}

@@ -1,0 +1,129 @@
+{{page-title "Tags"}}
+{{#if this.isModal}}
+  <ModalDialog
+    @containerClass='paz_modal_lic_container'
+    @overlayClass='paz_overlay'
+    @onClickOverlay= {{this.onCancel}}
+  >
+    <div class="paz_modal_title">
+      {{t "tags.tag.tagnew"}}
+    </div>
+    <div class="paz_modal_working">
+      <div>
+        <label for="login" class="lic_modal_label login_form_item">{{t "tags.tag.tagname"}}</label>
+        <Input @type="text" name="login" class="lic_modal_input login_form_item" @value={{this.tmpTag.name}}/>
+      </div>
+      <div>
+        <label for="login" class="lic_modal_label login_form_item">{{t "tags.tag.tagdescr"}}</label>
+        <Input @type="text" name="login" class="lic_modal_input login_form_item" @value={{this.tmpTag.descr}}/>
+      </div>
+    </div>
+    <div class="lic_modal_footer">
+      <button {{on 'click' this.onSave}} type="button" class="btn_primary btn_paz_modal login_form_item">
+        {{t "admin.office.modal.savebtn"}}
+      </button>
+      <button {{on 'click' this.onCancel}} type="button" class="btn_secondary btn_paz_modal login_form_item">
+        {{t "admin.office.modal.cancelbtn"}}
+      </button>
+    </div>
+  </ModalDialog>
+{{/if}}
+{{#if this.isActuators}}
+  <ModalDialog
+    @containerClass='paz_modal_lic_container'
+    @overlayClass='paz_overlay'
+    @onClickOverlay= {{this.onActCancel}}
+  >
+    <div class="paz_modal_title">
+      {{t "tags.addactuators"}}
+    </div>
+    <div class="paz_modal_working">
+      <div>
+        <label for="login" class="lic_modal_label login_form_item">{{t "models.actuator.actuatortype"}}</label>
+        <PowerSelect
+          @triggerClass="select_search filter_search_type search_select"
+          @options={{this.actuatorTypes}}
+          @selected={{this.actuatorType}}
+          @onChange={{fn (mut this.actuatorType)}} as |actuator|>
+          {{actuator.name}}
+        </PowerSelect>
+      </div>
+    </div>
+    <div class="lic_modal_footer">
+      <button {{on 'click' this.onActAdd}} type="button" class="btn_primary btn_paz_modal login_form_item">
+        {{t "admin.office.modal.savebtn"}}
+      </button>
+      <button {{on 'click' this.onActCancel}} type="button" class="btn_secondary btn_paz_modal login_form_item">
+        {{t "admin.office.modal.cancelbtn"}}
+      </button>
+    </div>
+  </ModalDialog>
+{{/if}}
+<div class="tags_nav_area">
+  <div class="filter_wrapper">
+    <div>
+      <div class="select_search filter_search_type select_search_label">{{t "admin.users.navsearchfor"}}</div>
+      <div class="select_search filter_search_value select_search_label">
+        {{#if this.isName}}
+          {{t "filter.selectname"}}
+        {{/if}}
+        {{#if this.isDescr}}
+          {{t "filter.selectdescr"}}
+        {{/if}}
+      </div>
+    </div>
+    <PowerSelect
+      @triggerClass="select_search filter_search_type search_select"
+      @options={{this.searchTypes}}
+      @selected={{this.searchType}}
+      @onChange={{this.onTypeChange}} as |type|>
+      {{type}}
+    </PowerSelect>
+    {{#if this.isName}}
+      <Input @input={{this.onInput}} type="text" class="search_select filter_search_value"
+             @value={{this.searchString}}></Input>
+    {{/if}}
+    {{#if this.isDescr}}
+      <Input @input={{this.onInput}} type="text" class="search_select filter_search_value"
+             @value={{this.searchString}}></Input>
+    {{/if}}
+  </div>
+  <div>
+    <button {{on 'click' this.onActuators}} type="button" class="btn_alternate a_btn">{{t "tags.tagactuator"}}</button>
+    <button {{on 'click' this.onNew}} type="button" class="btn_secondary a_btn">{{t "tags.newtag"}}</button>
+    <button type="button" class="btn_secondary">{{t "tags.importtags"}}</button>
+  </div>
+</div>
+<div class="working_wrapper">
+  <div class="tags_list_area">
+    <div class="tags_list_line tags_list_caption">
+      <div class="tags_list_cell_1">
+        {{#if this.isAllChecked}}
+          <input type="checkbox" {{on 'click' this.toggleAllItems}} checked/>
+        {{else}}
+          <input type="checkbox" {{on 'click' this.toggleAllItems}}/>
+        {{/if}}
+      </div>
+      <div class="tags_list_cell_2">{{t "tags.tagname"}}</div>
+      <div class="tags_list_cell_3">{{t "tags.descr"}}</div>
+    </div>
+    {{#each this.model.tags as |tag|}}
+      <div class="tags_list_line">
+        <div class="tags_list_cell_1">
+          <CheckItem @item={{tag}} @list={{this.checkedItems}}></CheckItem>
+        </div>
+        <div class="tags_list_cell_2 paz_clickable_link">
+          <LinkTo @route="auth.config.project.tags.tag" @model={{tag.id}}>{{tag.name}}</LinkTo>
+        </div>
+        <div class="tags_list_cell_3">{{tag.descr}}</div>
+      </div>
+    {{else}}
+      <div class="empty_tag">
+        {{t "tags.typetag"}}
+      </div>
+    {{/each}}
+  </div>
+  <div class="tag_area">
+    {{outlet}}
+  </div>
+</div>

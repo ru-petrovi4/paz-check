@@ -1,0 +1,50 @@
+{{page-title "ПАЗ"}}
+<header class="header">
+  <div class="header_logo">
+    <a href="/" class="header_logo_link">
+      <img src="/images/logo.svg" alt={{t "index.pazlogo"}} class="header_logo_pic">
+    </a>
+    {{#if this.headerTitle}}
+      <h1>{{t this.headerTitle}} | {{this.headerSubTitle}}</h1>
+    {{else}}
+      <h1>&nbsp;</h1>
+    {{/if}}
+  </div>
+  <div class="header_nav">
+    <ul class="header_list">
+      {{#if this.isAuthenticated}}
+        <li class="header_list_item">
+          <button type="button" class="nav_button nav_button_events" tabindex="0">
+          </button>
+        </li>
+        <li class="header_list_item" tabindex="0">
+          <button type="button" class="item_dropdown item_dropdown_user">
+              <span class="user_menu_header">
+                {{t "header.user.user"}}
+                <span class="">{{this.currentUser.user.name}}</span>
+              </span>
+            <span class="user_menu_item">
+                <LinkTo @route="logout">
+                  {{t "header.user.exit"}}
+                </LinkTo>
+              </span>
+            <span class="user_menu_item">
+                <LinkTo @route="auth.admin">
+                  {{t "header.user.admin"}}
+                </LinkTo>
+              </span>
+          </button>
+          <button type="button" class="nav_button nav_button_user">
+          </button>
+        </li>
+      {{/if}}
+      <li class="header_list_item" tabindex="0">
+        <button type="button" class="nav_button nav_button_help">
+        </button>
+      </li>
+    </ul>
+  </div>
+</header>
+<main class="main">
+  {{outlet}}
+</main>

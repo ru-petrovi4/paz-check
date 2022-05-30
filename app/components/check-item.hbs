@@ -1,0 +1,5 @@
+{{#if this.isChecked}}
+  <input type="checkbox" {{on 'click' this.toggleItem}} checked>
+{{else}}
+  <input type="checkbox" {{on 'click' this.toggleItem}}>
+{{/if}}

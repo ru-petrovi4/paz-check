@@ -1,0 +1,211 @@
+header:
+  titleadmin: Администрирование
+  titlesafety: Безопасность
+  user:
+    user: Пользователь
+    exit: Завершить работу
+    admin: Администрирование
+  titleconfig: Конфигурация
+  titlediagnost: Диагност
+login:
+  welcome: Добро пожаловать
+  auth: Авторизация
+  login: Логин
+  passwd: Пароль
+  enter: Войти
+index:
+  pagename: Главная
+  title: Рабочий стол
+  exit: Выйти
+  error: Логин или пароль введены не верно.<br>Попробуйте еще раз.
+  pazlogo: ПАЗ лого
+  menuarrow: Стрелка меню
+  selectunit: Выберите установку
+  unitname: Название установки
+  btngoto: Перейти
+admin:
+  pagename: Админ
+  title: Администрирование
+  tabs:
+    one: Профиль пользователей
+    two: Структура предприятия
+    three: Управление лицензиями
+  users:
+    pagename: Пользователи
+    title: Список пользователей
+    btnadduser: Добавить пользователя
+    navsearchfor: Поиск по
+    navselectoffcice: Выберите отдел
+    navselectrole: Выберите роль
+    navselectname: Введите имя
+    modal:
+      userinfo: Информация о поьзователе
+    table:
+      login: Логин
+      name: ФИО
+      role: Роль в системе
+      office: Отдел
+      lastlogin: Дата последнего логина
+      access: Доступ
+      accessrights: Права доступа
+      password: Пароль
+      personnelnumber: Табеьный номер
+  office:
+    pagename: Предприятие
+    title: Структура предприятия
+    officeslist: Список отделов
+    modal:
+      newoffice: Новый отдел
+      editoffice: Редактировать отдел
+      labeltxt: Введите название отдела
+      savebtn: Сохранить
+      cancelbtn: Отменить
+      delbtn: Удалить
+  licence:
+    pagename: Лицензия
+    title: Текущая лицензия
+    asklicence: Запросить лицензию
+    uploadlicence: Загрузить файл лицензии
+    maxunits: Макимальное количество установок
+    unitslist: Список установок
+    progslist: Список программ
+    btncreate: Создать
+    modal:
+      newunit: Новая установка
+      editunit: Редактирование установки
+      labeltxt: Введите название установки
+      savebtn: Сохранить
+      cancelbtn: Отменить
+icons:
+  delicon: Del icon
+  editicon: Edit icon
+  copyicon: Copy icon
+btn:
+  close: Закрыть
+config:
+  pagename: Конфигурация
+projects:
+  pagename: Управление проектами
+  aproject: Текущая конфигурация
+  prjname: Название
+  bywhom: Кем загружен
+  changedate: Дата загрузки
+  copy: Копировать
+  notloaded: Проект не загружен
+  projectlist: Список проектов
+  compare: Сравнить
+  newproject: Новый проект
+  list:
+    name: Название
+    chdata: Дата изменения
+    bywhom: Кем изменен
+    comment: Комментарий
+project:
+  tabs:
+    one: О проекте
+    two: Диаграммы
+    three: Теги
+    four: Модели
+  models:
+    tabs:
+      one: Правильных действий
+      two: Безопасной работы
+      three: Отказов
+      four: Исполнительных механизмов
+filter:
+  selectname: Введите имя
+  selectdescr: Введите описание
+  selecttags: Имя тега
+tags:
+  newtag: Новый тег
+  importtags: Импортировать теги
+  emptytag: Выберите тег
+  tagname: Имя тега
+  descr: Описание
+  typetag: Введите имя тега
+  taginfo: Информация о теге
+  tagactuator: Исп. механизмы
+  addactuators: Добавить исп. механизмы
+  tag:
+    tagname: Имя тега
+    tagdescr: Описание тега
+    tagext: Дополнительно
+    tagdiagrams: Диаграммы
+    tagactuator: Исп механизм
+    tagnew: Новый тег
+    identity:
+      ident: Идентификатор
+      eventtype: Тип события
+      value: Величина
+diagrams:
+  dlist: Список диаграмм
+  dadd: Добавить
+  dname: Имя диаграммы
+  dchngbywhom: Кем изменен
+  dlastchanged: Дата последнего изменения
+  diagram:
+    cause: Причина
+    effect: Следствие
+    full: Полный экран
+    check: Проверить
+    editmode: Режим редактирования
+    zoom: Масштаб
+    neweffect: Новое следствие
+    editeffect: Редактировать следствие
+    newcause: Новая причина
+    editcause: Редактировать причину
+    newitersect: Новая связь
+    editintersect: Редактировать связь
+    tagname: Имя тега
+    ident: Идентификатор
+    limit: Лимит
+    delay: Задержка
+    filter: Фильтр
+    delete: Удалить
+    collapse: Свернуть
+models:
+  actuator:
+    actuatortype: Тип механизма
+    emptyactuator: Выберите исполнительный механизм
+    actuatorinfo: Информация об исполнительном механизме
+    actuatorname: Имя
+    actuatorparams: Параметры
+    actuatornew: Новый
+insp: Инспектор
+dgst: Диагност
+tst: Тест
+sft: Безопасность
+hlp: Помощник
+cfg: Конфигурация
+RoleAdmin: Администратор
+RoleEng: Инженер
+RoleUser: Пользователь
+diagnost:
+  addlog: Добавить
+  loglisttitle: Список проанализированных ситуаций
+  addanalyse: Добавить ситуацию
+  calculete: Сделать расчет
+  canceladd: Отменить
+  loadlog: Загрузить лог
+  logs:
+    filename: Имя файла
+    startdate: Начальная дата
+    enddate: Конечная дата
+  results:
+    name: Название
+    descr: Описание
+    logfile: Лог файл
+    projectname: Название проекта
+    analyzedate: Дата расчета
+    startdate: Начальная дата
+    enddate: Конечная дата
+  calculate:
+    selectstart: Выберите начало временного диапазона
+    selectend: Выберите конец временного диапазона
+    calculate: Рассчитать
+    result: Результат
+    newrange: Новый диапазон дат
+    newlog: Другой лог
+  tabs:
+    diagrams: Диаграммы
+    timeline: Временная линия

@@ -1,0 +1,13 @@
+<div class="datetimepicker">
+  {{#if @isDisabled}}
+    <input type="date" value={{this.inputDate}} {{on 'input' this.updateInputDate}} disabled>
+  {{else}}
+    <input type="date" value={{this.inputDate}} {{on 'input' this.updateInputDate}}>
+  {{/if}}
+  <span></span>
+  {{#if @isDisabled}}
+    <input type="time" step="5" value={{this.inputTime}} {{on 'input' this.updateInputTime}} disabled>
+  {{else}}
+    <input type="time" step="5" value={{this.inputTime}} {{on 'input' this.updateInputTime}}>
+  {{/if}}
+</div>

@@ -1,0 +1,53 @@
+<section class="info_area{{if @isSmall '_small'}}">
+  {{#if @name}}
+    {{#if @backpage}}
+      <div class="info_wrapper">
+        <div class="backname_block">
+          <button type="button" class="btn_back" {{on 'click' this.backClick}}>
+            <img
+              src="/images/back_arrow.svg"
+              alt={{t "index.menuarrow"}}>
+          </button>
+          <span>{{@backpage}}</span>
+        </div>
+        {{#if @btn_name}}
+          {{#if @act}}
+            <button type="button" class="btn_primary info_btn_exit"
+              {{on "click" @act}}>{{@btn_name}}</button>
+          {{/if}}
+        {{/if}}
+      </div>
+    {{else}}
+      <div class="info_wrapper">
+        <h2>
+          {{@name}}
+        </h2>
+        {{#if @btn_name}}
+          {{#if @act}}
+            <button type="button" class="btn_primary info_btn_exit"
+              {{on "click" @act}}>{{@btn_name}}</button>
+          {{/if}}
+        {{/if}}
+      </div>
+    {{/if}}
+  {{else}}
+    {{#if @tabs}}
+      {{#if @backpage}}
+        <div class="back_block">
+          <button type="button" class="btn_back" {{on 'click' this.backClick}}>
+            <img
+              src="/images/back_arrow.svg"
+              alt={{t "index.menuarrow"}}>
+          </button>
+          <span>{{@backpage}}</span>
+        </div>
+      {{/if}}
+      <div class="tabs_wrapper">
+        {{#each this.tbs as |tab idx|}}
+          <button type="button" class="tab_item{{if @isSmall '_small'}} {{if @isSmall (if tab.isActive 'tab_item_small_active') (if tab.isActive 'tab_item_active')}}"
+            {{on 'click' (fn this.btnClick idx)}}>{{t tab.name}}</button>
+        {{/each}}
+      </div>
+    {{/if}}
+  {{/if}}
+</section>

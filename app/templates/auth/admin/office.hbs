@@ -1,0 +1,47 @@
+{{page-title (t "admin.office.pagename")}}
+<WorkBar @name={{t "admin.office.title"}}></WorkBar>
+
+{{#if this.isModal}}
+  <ModalDialog
+    @containerClass='paz_modal_lic_container'
+    @overlayClass='paz_overlay'
+    @onClickOverlay= {{this.onCancel}}
+  >
+    <div class="paz_modal_title">
+      {{t "admin.office.modal.newoffice"}}
+    </div>
+    <div class="paz_modal_working">
+      <label for="login" class="lic_modal_label login_form_item">{{t "admin.office.modal.labeltxt"}}</label>
+      <Input @type="text" name="login" class="lic_modal_input login_form_item" @value={{this.officeName}}/>
+    </div>
+    <div class="lic_modal_footer">
+      <button {{on 'click' this.onSave}} type="button" class="btn_primary btn_paz_modal login_form_item">
+        {{t "admin.office.modal.savebtn"}}
+      </button>
+      <button {{on 'click' this.onCancel}} type="button" class="btn_secondary btn_paz_modal login_form_item">
+        {{t "admin.office.modal.cancelbtn"}}
+      </button>
+    </div>
+  </ModalDialog>
+{{/if}}
+
+<div class="offices">
+  <div class="offices_title_wrapper">
+    <div class="lic_units_title">{{t "admin.office.officeslist"}}</div>
+    <button {{on 'click' this.newOffice}} type="button" class="btn_primary">{{t
+      "admin.licence.btncreate"}}</button>
+  </div>
+  <ul class="offices_list">
+    {{#each @model as |office|}}
+      <li class="offices_item">
+        <div class="lic_unit_name">{{office.name}}</div>
+        <button {{on 'click' (fn this.onDelete office)}} type="button" class="lic_unit_icon">
+          <img src="/images/lic_del_icon.svg" alt={{t "icons.delicon"}}>
+        </button>
+        <button {{on 'click' (fn this.onEdit office)}} type="button" class="lic_unit_icon">
+          <img src="/images/lic_edit_icon.svg" alt={{t "icons.editicon"}}>
+        </button>
+      </li>
+    {{/each}}
+  </ul>
+</div>

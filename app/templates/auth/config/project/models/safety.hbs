@@ -1,0 +1,16 @@
+{{page-title "Safety"}}
+<div class="tools_area">
+  <div>
+    <FileUpload @name="safetyConfig"
+                @accept="text/csv"
+                @onfileadd={{this.createSafetyConfig}} as |queue|>
+            <span class="btn_primary psevdo_btn">
+              {{#if queue.files.length}}
+                Uploading... {{queue.progress}}
+              {{else}}
+                {{t "diagnost.loadlog"}}
+              {{/if}}
+            </span>
+    </FileUpload>
+  </div>
+</div>

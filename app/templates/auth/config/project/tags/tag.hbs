@@ -1,0 +1,48 @@
+{{page-title "Tag"}}
+<div class="tag_title">
+  <div><span>{{t "tags.taginfo"}}</span></div>
+  <div>
+    {{#if this.isEdit}}
+      <span class="icon_btn" {{on 'click' this.onSave}}><img src="/images/btn_save.svg" alt={{t "icons.editicon"}}></span>
+      <span class="icon_btn" {{on 'click' this.onCancel}}><img src="/images/btn_cancel.svg" alt={{t "icons.delicon"}}></span>
+    {{else}}
+      <span class="icon_btn" {{on 'click' this.onNewAlarm}}><img src="/images/btn_copy.svg" alt={{t "icons.copyicon"}}></span>
+      <span class="icon_btn" {{on 'click' this.onDelete}}><img src="/images/btn_del.svg" alt={{t "icons.delicon"}}></span>
+      <span class="icon_btn" {{on 'click' this.onEdit}}><img src="/images/btn_edit.svg" alt={{t "icons.editicon"}}></span>
+    {{/if}}
+  </div>
+</div>
+<div class="tag_info_wrapper">
+  <div class="active_prj_info_item"><span>{{t "tags.tag.tagname"}}</span>
+    {{#if this.isEdit}}
+      <Input @type="text" name="login" size="15" class="actuator_inp" @value={{this.model.name}}/>
+    {{else}}
+      <span>{{this.model.name}}</span>
+    {{/if}}
+  </div>
+  <div class="active_prj_info_item"><span>{{t "tags.tag.tagdescr"}}</span>
+    {{#if this.isEdit}}
+      <Input @type="text" name="login" size="45" class="actuator_inp" @value={{this.model.descr}}/>
+    {{else}}
+      <span>{{this.model.descr}}</span>
+    {{/if}}
+  </div>
+  <div class="active_prj_info_item"><span>{{t "tags.tag.tagext"}}</span>
+    {{#if this.isEdit}}
+      <Input @type="text" name="login" size="45" class="actuator_inp" @value={{this.model.ext}}/>
+    {{else}}
+      <span>{{this.model.ext}}</span>
+    {{/if}}
+  </div>
+  <div class="active_prj_info_item"><span>{{t "tags.tag.tagdiagrams"}}</span>
+    <span>{{this.model.name}}</span>
+  </div>
+  <div class="active_prj_info_item"><span>{{t "tags.tag.tagactuator"}}</span>
+    <span>{{if this.model.actuator this.model.actuator.name ''}}</span>
+  </div>
+</div>
+<div class="tag_ident_list">
+  {{#each this.model.identities as |identity|}}
+    <TagIdentity @identity={{identity}}></TagIdentity>
+  {{/each}}
+</div>

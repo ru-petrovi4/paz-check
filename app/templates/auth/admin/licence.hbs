@@ -1,0 +1,69 @@
+{{page-title (t "admin.licence.pagename")}}
+<WorkBar @name={{t "admin.licence.title"}}>
+  <button type="button" class="work_bar_item btn_primary">{{t "admin.licence.asklicence"}}</button>
+  <button type="button" class="btn_secondary">{{t "admin.licence.uploadlicence"}}</button>
+</WorkBar>
+
+{{#if this.isModal}}
+  <ModalDialog
+    @containerClass='paz_modal_lic_container'
+    @overlayClass='paz_overlay'
+    @onClickOverlay = {{this.onCancel}}
+  >
+    <div class="paz_modal_title">
+      {{t "admin.licence.modal.newunit"}}
+    </div>
+    <div class="paz_modal_working">
+      <label for="login" class="lic_modal_label login_form_item">{{t "admin.licence.modal.labeltxt"}}</label>
+      <Input @type="text" name="login" class="lic_modal_input login_form_item" @value={{this.unitName}}/>
+    </div>
+    <div class="lic_modal_footer">
+      <button {{on 'click' this.onSave}} type="button" class="btn_primary login_form_item">
+        {{t "admin.licence.modal.savebtn"}}
+      </button>
+      <button {{on 'click' this.onCancel}} type="button" class="btn_secondary login_form_item">
+        {{t "admin.licence.modal.cancelbtn"}}
+      </button>
+    </div>
+  </ModalDialog>
+{{/if}}
+
+<section class="lic_info">
+  <p>{{@model.lic.customer}}</p>
+  <p>{{t "admin.licence.maxunits"}}: <span>{{@model.lic.units}}</span></p>
+  <div class="lic_units_title_wrapper">
+    <div class="lic_units_title">{{t "admin.licence.unitslist"}}</div>
+    {{#if this.isMaxLic}}
+      <button disabled type="button" class="btn_primary">{{t "admin.licence.btncreate"}}</button>
+    {{else}}
+      <button {{on 'click' this.newUnit}} type="button" class="btn_primary">{{t "admin.licence.btncreate"}}</button>
+    {{/if}}
+  </div>
+  <div class="lic_info_wrapper">
+    <div class="lic_units">
+      <ul class="lic_units_list">
+        {{#each @model.units as |unit|}}
+          <li class="lic_units_item">
+            <div class="lic_unit_name">{{unit.name}}</div>
+            <button {{on 'click' (fn this.onDelete unit)}} type="button" class="lic_unit_icon">
+              <img src="/images/lic_del_icon.svg" alt={{t "icons.delicon"}}>
+            </button>
+            <button {{on 'click' (fn this.onEdit unit)}} type="button" class="lic_unit_icon">
+              <img src="/images/lic_edit_icon.svg" alt={{t "icons.editicon"}}>
+            </button>
+          </li>
+        {{/each}}
+      </ul>
+    </div>
+    <div class="lic_progs">
+      <div class="lic_progs_title">
+        {{t "admin.licence.progslist"}}
+      </div>
+      <ul class="lic_progs_list">
+        {{#each @model.lic.progs as |prog|}}
+          <li class="lic_progs_item">{{t prog.name}}</li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,76 @@
+{{page-title "Actuator"}}
+{{#if this.isModal}}
+  <ModalDialog
+    @containerClass='paz_modal_lic_container'
+    @overlayClass='paz_overlay'
+    @onClickOverlay= {{this.onCancel}}
+  >
+    <div class="paz_modal_title">
+      {{t "models.actuator.actuatornew"}}
+    </div>
+    <div class="paz_modal_working modal_flex_wrapper">
+      <div>
+        <label for="login" class="lic_modal_label login_form_item">{{t "models.actuator.actuatorname"}}</label>
+        <Input @type="text" name="login" class="lic_modal_input login_form_item" @value={{this.tmpAct.name}}/>
+      </div>
+      <div>
+        <label for="login" class="lic_modal_label login_form_item">{{t "models.actuator.actuatortype"}}</label>
+        <PowerSelect
+          @triggerClass="select_search filter_search_type search_select"
+          @options={{this.actuatorTypes}}
+          @selected={{this.tmpAct.type}}
+          @onChange={{fn (mut this.tmpAct.type)}} as |type|>
+          {{type}}
+        </PowerSelect>
+      </div>
+    </div>
+    <div class="lic_modal_footer">
+      <button {{on 'click' this.onSave}} type="button" class="btn_primary btn_paz_modal login_form_item">
+        {{t "admin.office.modal.savebtn"}}
+      </button>
+      <button {{on 'click' this.onCancel}} type="button" class="btn_secondary btn_paz_modal login_form_item">
+        {{t "admin.office.modal.cancelbtn"}}
+      </button>
+    </div>
+  </ModalDialog>
+{{/if}}
+<div class="tags_nav_area">
+  <div class="filter_wrapper">
+    <div>
+      <div class="select_search filter_search_type select_search_label">{{t "models.actuator.actuatortype"}}</div>
+    </div>
+    <PowerSelect
+      @triggerClass="select_search filter_search_type search_select"
+      @options={{this.actuatorTypes}}
+      @selected={{this.actuatorType}}
+      @onChange={{this.onTypeChange}} as |type|>
+      {{type}}
+    </PowerSelect>
+  </div>
+  <div>
+    <button type="button" class="btn_secondary a_btn" {{on 'click' this.onNew}}>{{t "models.actuator.actuatornew"}}</button>
+  </div>
+</div>
+<div class="working_wrapper">
+  <div class="tags_list_area actuator_list_area">
+    <div class="tags_list_line tags_list_caption">
+      <div class="act_list_cell_one">{{t "models.actuator.actuatorname"}}</div>
+      <div class="act_list_cell_two">{{t "models.actuator.actuatortype"}}</div>
+    </div>
+    {{#each this.model.actuators as |actuator|}}
+      <div class="tags_list_line">
+        <div class="act_list_cell_one paz_clickable_link">
+          <LinkTo @route="auth.config.project.models.actuator.details" @model={{actuator.id}}>{{actuator.name}}</LinkTo>
+        </div>
+        <div class="act_list_cell_two">{{actuator.type}}</div>
+      </div>
+    {{else}}
+      <div class="empty_tag">
+        {{t "tags.typetag"}}
+      </div>
+    {{/each}}
+  </div>
+  <div class="tag_area actuator_list_area">
+    {{outlet}}
+  </div>
+</div>

@@ -1,0 +1,106 @@
+/*!
+ * Copyright (c) 2021.
+ * All rights reserved by Simcode
+ */
+
+.working_wrapper {
+  @extend %flex-shared;
+  justify-content: space-between;
+  margin-left: $margin_normal;
+  margin-right: $margin_normal;
+}
+
+.active_prj_area {
+  width: 340px;
+  height: 296px;
+  background-color: $bg_color_secondary;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding-bottom: $margin_normal;
+}
+
+.active_prj_title {
+  height: $work_bar_height;
+  font-weight: $font_weight_dark;
+  line-height: $work_bar_height;
+  font-size: $font_size_xx;
+  color: $color_primary;
+  border-bottom: 1px solid $color_border_gray;
+  padding-left: $margin_normal;
+}
+
+.lamp {
+  vertical-align: middle;
+  margin-right: $margin_normal/2;
+}
+
+.active_prj_info_wrapper {
+  @extend %flex-shared;
+  flex-direction: column;
+  padding-left: $margin_normal;
+  padding-top: $margin_l;
+}
+
+.active_prj_info_item {
+  height: $margin_l;
+  line-height: $margin_l;
+}
+
+.active_prj_info_item > span:first-child {
+  display: inline-block;
+  font-weight: $font_weight_dark;
+  width: 160px;
+}
+
+.active_prj_info_subitem {
+  height: $margin_l;
+}
+
+.prj_area {
+  height: calc(100vh - #{$header_info_size});
+  background-color: $bg_color_secondary;
+  border-radius: 5px;
+  flex-grow: 1;
+}
+
+.prj_list_title {
+  font-weight: $font_weight_dark;
+  color: $color_primary;
+}
+
+.prj_list_line {
+  @extend %flex-shared;
+  justify-content: space-between;
+  height: $cell_height;
+  line-height: $cell_height;
+  margin-right: $margin_normal;
+}
+
+.prj_list_item_one {
+  width: $margin_xs;
+}
+
+.prj_list_item_two {
+  width: 61px;
+}
+
+.prj_list_item_three {
+  width: 140px;
+}
+
+.prj_list_item_four {
+  width: 211px;
+}
+
+.prj_list_item_five {
+  width: 211px;
+}
+
+.prj_list_item_six {
+  flex-grow: 1;
+}
+
+.prj_list_item_seven {
+  width: 130px;
+  text-align: right;
+}

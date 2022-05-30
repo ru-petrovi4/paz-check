@@ -1,0 +1,50 @@
+{{page-title "Addanalyse"}}
+<NavArea
+  @name={{t "diagnost.addanalyse"}}
+  @act={{this.cancelAdd}}
+  @btn_name={{t "diagnost.canceladd"}}
+></NavArea>
+<div class="tools_area">
+  <div>
+    <FileUpload @name="logs"
+                @accept="text/csv"
+                @onfileadd={{this.createLog}} as |queue|>
+            <span class="btn_primary psevdo_btn">
+              {{#if queue.files.length}}
+                Uploading... {{queue.progress}}
+              {{else}}
+                {{t "diagnost.loadlog"}}
+              {{/if}}
+            </span>
+    </FileUpload>
+  </div>
+  <div>
+    {{#if this.isLoading}}
+      <JobProgress @guid={{this.guid}} @completed={{this.onCalculationFinished}}></JobProgress>
+    {{/if}}
+  </div>
+</div>
+<div class="working_area diagnost_add_wa">
+  <div class="list_line list_line_caption">
+    <div class="log_item1">{{t "diagnost.logs.filename"}}</div>
+    <div class="log_item1">{{t "diagnost.logs.startdate"}}</div>
+    <div class="log_item1">{{t "diagnost.logs.enddate"}}</div>
+    <div class="log_item_grow">&nbsp;</div>
+    <div class="log_item_last">&nbsp;</div>
+  </div>
+  <div class="logs_list">
+    {{#each @model.logs as |log|}}
+      <div class="list_line">
+        <div class="log_item1 paz_clickable_link">
+          <LinkTo @route="auth.diagnost.calculate" @model={{log.id}}>{{log.name}}</LinkTo>
+        </div>
+        <div class="log_item1">{{format-date log.start}} {{format-time log.start format='hhmmss'}}</div>
+        <div class="log_item1">{{format-date log.end}} {{format-time log.end format='hhmmss'}}</div>
+        <div class="log_item_grow">&nbsp;</div>
+        <div class="log_item_last">
+          <span class="icon_btn" {{on 'click' (fn this.onDelete log)}}><img src="/images/btn_del.svg" alt={{t "icons.delicon"}}></span>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</div>

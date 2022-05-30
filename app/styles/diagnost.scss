@@ -1,0 +1,68 @@
+/*!
+ * Copyright (c) 2021.
+ * All rights reserved by Simcode
+ */
+
+.diagnost_add_wa {
+  min-height: calc(100vh - #{$header_height+$work_bar_height+$margin_normal+$margin_normal + 64px});
+  overflow-y: scroll;
+}
+
+.diagnost_result {
+  min-height: calc(100vh - #{$header_height+$work_bar_height+$margin_normal+$margin_normal});
+}
+
+.logs_list {
+  @extend %flex-shared;
+  flex-direction: column;
+}
+
+.psevdo_btn {
+  display: inline-block;
+  line-height: $form_elem_h_normal;
+}
+
+.tools_area {
+  @extend %flex-shared;
+  justify-content: space-between;
+  margin-left: $margin_normal;
+  margin-right: $margin_normal;
+  padding-bottom: $margin_sm;
+}
+
+.log_item1 {
+  flex: 0 0 200px;
+}
+
+.log_item_grow {
+  flex: 1 1 200px;
+}
+
+.log_item_last {
+  flex: 0 0 50px;
+}
+
+.diagnost_param_name {
+  color: $color_primary;
+}
+
+.diagnost_param {
+  padding-left: $margin_normal;
+  padding-top: $margin_normal;
+  font-size: $font_size_sxx;
+}
+
+.diagnost_calculate {
+  height: calc(100vh - #{$header_height+$work_bar_height+$margin_normal+$margin_normal});
+  padding-bottom: $margin_normal;
+  overflow-y: scroll;
+}
+
+.diag_calc_btn_panel {
+  padding-left: $margin_normal;
+  padding-top: $margin_normal;
+}
+
+.diag_calc_btn_panel > button {
+  margin-right: $margin_normal;
+}

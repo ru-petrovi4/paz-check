@@ -1,0 +1,65 @@
+{{#if this.isModal}}
+  <ModalDialog
+    @containerClass='paz_modal_lic_container'
+    @overlayClass='paz_overlay'
+    @onClickOverlay= {{this.onCancel}}
+  >
+    <div class="paz_modal_title">
+      {{#if this.isNew}}
+        {{t "diagrams.diagram.neweffect"}}
+      {{else}}
+        {{t "diagrams.diagram.editeffect"}} {{@meta.effect.name}}
+      {{/if}}
+    </div>
+    <div class="paz_modal_working modal_flex_wrapper">
+      <div>
+        <label for="login" class="lic_modal_label login_form_item">{{t "diagrams.diagram.tagname"}}</label>
+        <PowerSelect
+          @triggerClass="select_search filter_search_type search_select"
+          @selected={{this.tag}}
+          @searchEnabled={{true}}
+          @search={{this.searchTag}}
+          @onChange={{this.onChangeTag}} as |tag|>
+          {{tag.name}}
+        </PowerSelect>
+      </div>
+      <div>
+        <label for="login" class="lic_modal_label login_form_item">{{t "diagrams.diagram.ident"}}</label>
+        <PowerSelect
+          @triggerClass="select_search filter_search_type search_select"
+          @options={{this.identities}}
+          @selected={{this.identity}}
+          @onChange={{this.onChangeIdentity}} as |identity|>
+          {{identity.value}}
+        </PowerSelect>
+      </div>
+    </div>
+    <div class="lic_modal_footer">
+      <div class="modal_flex_wrapper">
+        <button {{on 'click' this.onSave}} type="button" class="btn_primary btn_paz_modal login_form_item">
+          {{t "admin.office.modal.savebtn"}}
+        </button>
+        <button {{on 'click' this.onCancel}} type="button" class="btn_secondary btn_paz_modal login_form_item">
+          {{t "admin.office.modal.cancelbtn"}}
+        </button>
+      </div>
+      <div>
+        <button {{on 'click' this.onDelete}} type="button" class="btn_warn login_form_item">
+          {{t "admin.office.modal.delbtn"}}
+        </button>
+      </div>
+    </div>
+  </ModalDialog>
+{{/if}}
+
+<div class="diag_header_cell" {{on 'click' this.onClick}}>
+  <div class="vert_text diag_effect_vert">
+    {{#if @column.img}}
+      <img src="/images/add_btn.svg" alt={{t "diagrams.diagram.neweffect"}}>
+    {{else}}
+      {{@column.meta.effect.identity.tag.name}}
+    {{/if}}
+  </div>
+  <div>{{@meta.effect.identity.value.[0]}}</div>
+</div>
+

@@ -1,0 +1,8 @@
+{{page-title "Result"}}
+<NavArea
+  @backpage={{@model.name}}
+  @backmodels={{@model.unit.id}}
+  @backroute="auth.diagnost.index"
+  @tabs={{this.tabs}}
+></NavArea>
+{{outlet}}

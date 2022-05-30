@@ -1,0 +1,8 @@
+{{page-title "Project"}}
+<NavArea
+  @backpage={{@model.name}}
+  @backroute="auth.config"
+  @backmodels={{@model.unit.id}}
+  @tabs={{this.tabs}}
+></NavArea>
+{{outlet}}

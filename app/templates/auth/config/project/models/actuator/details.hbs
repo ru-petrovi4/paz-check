@@ -1,0 +1,33 @@
+{{page-title "Details"}}
+<div class="tag_title">
+  <div><span>{{t "models.actuator.actuatorinfo"}}</span></div>
+  <div>
+    {{#if this.isEdit}}
+      <span class="icon_btn" {{on 'click' this.onSave}}><img src="/images/btn_save.svg" alt={{t "icons.editicon"}}></span>
+      <span class="icon_btn" {{on 'click' this.onCancel}}><img src="/images/btn_cancel.svg" alt={{t "icons.delicon"}}></span>
+    {{else}}
+      <span class="icon_btn" {{on 'click' this.onDelete}}><img src="/images/btn_del.svg" alt={{t "icons.delicon"}}></span>
+      <span class="icon_btn" {{on 'click' this.onEdit}}><img src="/images/btn_edit.svg" alt={{t "icons.editicon"}}></span>
+    {{/if}}
+  </div>
+</div>
+<div class="tag_info_wrapper">
+  <div class="active_prj_info_item"><span>{{t "models.actuator.actuatorname"}}</span>
+    {{#if this.isEdit}}
+      <Input @type="text" name="login" size="15" class="actuator_inp" @value={{this.model.name}}/>
+    {{else}}
+      <span>{{this.model.name}}</span>
+    {{/if}}
+  </div>
+  <div class="active_prj_info_item"><span>{{t "models.actuator.actuatortype"}}</span><span>{{this.model.type}}</span></div>
+  <div class="active_prj_info_item"><span>{{t "models.actuator.actuatorparams"}}</span><span>&nbsp;</span></div>
+  {{#each this.model.actuatorparams as |param|}}
+    <div class="active_prj_info_item"><span>{{param.name}}</span>
+      {{#if this.isEdit}}
+        <Input @type="text" name="login" size="3" class="actuator_inp" @value={{param.value}}/>
+      {{else}}
+        <span>{{param.value}}</span>
+      {{/if}}
+    </div>
+  {{/each}}
+</div>

@@ -1,0 +1,20 @@
+/*!
+ * Copyright (c) 2021.
+ * All rights reserved by Simcode
+ */
+
+.prj_info_line {
+  @extend %flex-shared;
+  justify-content: space-between;
+  height: $info_height;
+  line-height: $cell_height;
+  margin-left: $margin_normal;
+  margin-right: $margin_normal;
+  background-color: white;
+}
+
+.prj_info_item_one {
+  width: $margin_xs;
+  background-color: $color_success;
+  border-radius: 5px 0 0 5px;
+}

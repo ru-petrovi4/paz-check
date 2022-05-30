@@ -1,0 +1,137 @@
+{{page-title (t "admin.users.pagename")}}
+<WorkBar @name={{t "admin.users.title"}}>
+  <button type="button" class="btn_primary">{{t "admin.users.btnadduser"}}</button>
+</WorkBar>
+
+{{#if this.isInfo}}
+  <ModalDialog
+    @containerClass='paz_modal_usr_info'
+    @overlayClass='paz_overlay'
+    @onClickOverlay= {{this.onCancel}}
+  >
+    <PazModal
+      @title={{t "admin.users.modal.userinfo"}}
+    >
+      <:default>
+        <div class="user_info_wrapper">
+          <div class="user_info_label">{{t "admin.users.table.name"}}</div>
+          <div class="user_info_value">
+            <div class="">{{this.currentUser.fullname}}</div>
+            <button {{on 'click' this.onEdit}} type="button" class="lic_unit_icon">
+              <img src="/images/lic_edit_icon.svg" alt={{t "icons.editicon"}}>
+            </button>
+          </div>
+          <div class="user_info_label">{{t "admin.users.table.login"}}</div>
+          <div class="user_info_value">{{this.currentUser.username}}</div>
+          <div class="user_info_label">{{t "admin.users.table.role"}}</div>
+          <div class="user_info_value">{{this.currentUser.role}}</div>
+          <div class="user_info_label">{{t "admin.users.table.password"}}</div>
+          <div class="user_info_value">{{this.currentUser.password}}</div>
+          <div class="user_info_label">{{t "admin.users.table.office"}}</div>
+          <div class="user_info_value">{{this.currentUser.office.name}}</div>
+          <div class="user_info_label">{{t "admin.users.table.personnelnumber"}}</div>
+          <div class="user_info_value">{{this.currentUser.personnelnumber}}</div>
+          <div class="user_info_label">{{t "admin.users.table.lastlogin"}}</div>
+          <div class="user_info_value">{{this.currentUser.lastlogin}}</div>
+        </div>
+      </:default>
+      <:footer>
+        <button {{on 'click' this.onCancel}} type="button" class="btn_primary btn_paz_modal login_form_item">
+          {{t "btn.close"}}
+        </button>
+      </:footer>
+    </PazModal>
+  </ModalDialog>
+{{/if}}
+
+{{#if this.isAccess}}
+  <ModalDialog
+    @containerClass='paz_modal_lic_container'
+    @overlayClass='paz_overlay'
+    @onClickOverlay= {{this.onCancel}}
+  >
+    <div class="paz_modal_title">
+      {{t "admin.office.modal.newoffice"}}
+    </div>
+    <div class="paz_modal_working">
+      <label for="login" class="lic_modal_label login_form_item">{{t "admin.office.modal.labeltxt"}}</label>
+      <Input @type="text" name="login" class="lic_modal_input login_form_item" @value={{this.officeName}}/>
+    </div>
+    <div class="lic_modal_footer">
+      <button {{on 'click' this.onSave}} type="button" class="btn_primary btn_paz_modal login_form_item">
+        {{t "admin.office.modal.savebtn"}}
+      </button>
+      <button {{on 'click' this.onCancel}} type="button" class="btn_secondary btn_paz_modal login_form_item">
+        {{t "admin.office.modal.cancelbtn"}}
+      </button>
+    </div>
+  </ModalDialog>
+{{/if}}
+
+<div class="user_nav">
+  <div>
+    <div class="select_search select_search_type select_search_label">{{t "admin.users.navsearchfor"}}</div>
+    <div class="select_search select_search_value select_search_label">
+      {{#if this.isOffice}}
+        {{t "admin.users.navselectoffcice"}}
+      {{/if}}
+      {{#if this.isRole}}
+        {{t "admin.users.navselectrole"}}
+      {{/if}}
+      {{#if this.isName}}
+        {{t "admin.users.navselectname"}}
+      {{/if}}
+    </div>
+  </div>
+  <PowerSelect
+    @triggerClass="select_search select_search_type search_select"
+    @options={{this.searchTypes}}
+    @selected={{this.searchType}}
+    @onChange={{this.onTypeChange}} as |type|>
+    {{type}}
+  </PowerSelect>
+  {{#if this.isName}}
+    <Input @input={{this.onInput}} type="text" class="search_select search_select_name"
+           @value={{this.userName}}></Input>
+  {{/if}}
+  {{#if this.isRole}}
+    <PowerSelect
+      @triggerClass="select_search select_search_value search_select"
+      @options={{this.userRoles}}
+      @selected={{this.userRole}}
+      @onChange={{this.onSearchRoleChange}} as |role|>
+      {{t role}}
+    </PowerSelect>
+  {{/if}}
+  {{#if this.isOffice}}
+    <PowerSelect
+      @triggerClass="select_search select_search_value search_select"
+      @options={{this.offices}}
+      @selected={{this.userOffice}}
+      @onChange={{this.onSearchOfficeChange}} as |office|>
+      {{office.name}}
+    </PowerSelect>
+  {{/if}}
+</div>
+<div class="user_table_wrapper">
+  <EmberTable class="user_table" as |t|>
+    <t.head @columns={{this.columns}}
+            @scrollIndicators="none"
+    />
+    <t.body @rows={{this.rows}} as |b|>
+      <b.row as |r|>
+        <r.cell as |cell column row cellMeta columnMeta rowMeta|>
+          {{#if column.cellComponent}}
+            {{#component column.cellComponent onClick=this.onAction clmn=columnMeta.index idx=rowMeta._rowValue.id}}
+              {{cell}}
+            {{/component}}
+          {{else}}
+            <div {{on 'click' (fn this.setSelected column cellMeta columnMeta rowMeta)}} class="cell-content">
+              {{cell}} {{rowMeta._rowValue.id}}
+            </div>
+          {{/if}}
+        </r.cell>
+      </b.row>
+    </t.body>
+  </EmberTable>
+</div>

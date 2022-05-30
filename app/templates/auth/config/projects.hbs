@@ -1,0 +1,48 @@
+{{page-title "Projects"}}
+<NavArea
+  @name={{t "projects.pagename"}}
+></NavArea>
+<section class="working_wrapper">
+  <div class="active_prj_area">
+    <div class="active_prj_title">
+      <img src="/images/lamp_green.svg" alt="" role="presentation" class="lamp">{{t "projects.aproject"}}
+    </div>
+    <div class="active_prj_info_wrapper">
+      {{#if this.model.activeproject}}
+        <div class="active_prj_info_item"><span>{{t "projects.prjname"}}</span><span>{{this.model.activeproject.name}}</span></div>
+        <div class="active_prj_info_item"><span>{{t "projects.bywhom"}}</span><span>{{this.model.byuser.lastname}}</span></div>
+        <div class="active_prj_info_item"><span>{{t "projects.changedate"}}</span><span>{{format-date this.model.loadeddate}}</span></div>
+      {{else}}
+        <div class="active_prj_info_item">{{t "projects.notloaded"}}</div>
+      {{/if}}
+    </div>
+  </div>
+  <div class="prj_area">
+    <WorkBar @name={{t "projects.projectlist"}}>
+      <button type="button" class="work_bar_item btn_secondary">{{t "projects.compare"}}</button>
+      <button type="button" class="btn_primary">{{t "projects.newproject"}}</button>
+    </WorkBar>
+    <div class="prj_list_line prj_list_title">
+      <div class="prj_list_item_one">&nbsp;</div>
+      <div class="prj_list_item_two">&nbsp;</div>
+      <div class="prj_list_item_three">{{t "projects.list.name"}}</div>
+      <div class="prj_list_item_four">{{t "projects.list.chdata"}}</div>
+      <div class="prj_list_item_five">{{t "projects.list.bywhom"}}</div>
+      <div class="prj_list_item_six">{{t "projects.list.comment"}}</div>
+      <div class="prj_list_item_seven">&nbsp;</div>
+    </div>
+    <div>
+      {{#each this.model.projects as |project|}}
+        <div class="prj_list_line">
+          <div class="prj_list_item_one">&nbsp;</div>
+          <div class="prj_list_item_two">&nbsp;</div>
+          <div class="prj_list_item_three paz_clickable_link"><LinkTo @route="auth.config.project" @model={{project.id}}>{{project.name}}</LinkTo></div>
+          <div class="prj_list_item_four">{{format-date project.lastchanged}}</div>
+          <div class="prj_list_item_five">{{project.byuser.lastname}}</div>
+          <div class="prj_list_item_six">{{project.comment}}</div>
+          <div class="prj_list_item_seven"><img src="/images/menu_icon.svg" alt="" role="presentation" class="lamp"></div>
+        </div>
+      {{/each}}
+    </div>
+  </div>
+</section>

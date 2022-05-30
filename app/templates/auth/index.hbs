@@ -1,0 +1,54 @@
+{{page-title (t "index.pagename")}}
+<NavArea
+  @name={{t "index.title"}}
+  @act={{this.logOut}}
+  @btn_name={{t "index.exit"}}
+></NavArea>
+
+<section class="working_area index_working_area">
+  <div class="index_sub_programs">
+    <ul class="sub_programm_list">
+      {{#each this.progsState as |prog idx|}}
+        <li class="sub_programm_list_item">
+          <div class="sub_programm_list_item_wrapper">
+            <div>
+              <span class="img_helper"></span>
+              {{#unless prog.isLast}}
+                <img class="sub_programm_logo" src="/images/pzch_mnu_icon.svg"
+                     alt={{t "index.pazlogo"}}>
+              {{/unless}}
+              <span class="sub_programm_name">{{t prog.name}}</span>
+            </div>
+            <div class="sub_programm_selector_wrapper">
+              <button type="button"
+                      class="sub_programm_selector {{if prog.isActive 'sub_programm_selector_active'}}" {{on 'click'
+                                                                                                             (fn this.progSelect idx)}}>
+                <img
+                  src="/images/index_list_arrow{{if prog.isActive '_active'}}.svg"
+                  alt={{t "index.menuarrow"}}>
+              </button>
+            </div>
+          </div>
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+  <div class="index_units">
+    {{#if this.units}}
+      <div class="units_title">{{t "index.selectunit"}}</div>
+      <div class="unit_title">
+        <p>{{t "index.unitname"}}</p>
+      </div>
+      <ul class="index_units_list">
+        {{#each this.units as |unit|}}
+          <li class="index_units_list_item">
+            <div class="index_units_list_item_wrapper">
+              <div class="unit_name">{{unit.name}}</div>
+                <button type="button" class="btn_primary" {{on 'click' (fn this.unitSelect unit.id)}}>{{t "index.btngoto"}}</button>
+            </div>
+          </li>
+        {{/each}}
+      </ul>
+    {{/if}}
+  </div>
+</section>

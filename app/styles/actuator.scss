@@ -1,0 +1,28 @@
+/*!
+ * Copyright (c) 2021.
+ * All rights reserved by Simcode
+ */
+
+.actuator_inp {
+  display: inline-block;
+  height: $form_elem_h_small;
+  font-size: $font_size_x;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: $margin_xs;
+  font-weight: $font_weight_normal;
+  border: 1px solid $color_secondary;
+}
+
+.actuator_list_area {
+  height: calc(100vh - #{$header_info_size+207px});
+}
+
+.act_list_cell_one {
+  flex: 0 0 256px;
+}
+
+.act_list_cell_two {
+  flex: 1 1 550px;
+  overflow: hidden;
+}

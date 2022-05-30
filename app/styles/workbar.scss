@@ -1,0 +1,28 @@
+/*!
+ * Copyright (c) 2021.
+ * All rights reserved by Simcode
+ */
+
+.work_bar {
+  height: $work_bar_height;
+  padding: $margin_normal $margin_normal 0;
+  border-bottom: 1px solid $color_border_gray;
+  @extend %flex-shared;
+  justify-content: space-between;
+}
+
+.work_bar_item {
+  margin-right: 10px;
+}
+
+.work_bar_section_name {
+  font-weight: $font_weight_dark;
+  font-size: $font_size_xx;
+  color: $color_primary;
+  flex-grow: 1;
+  align-self: center;
+}
+
+.work_bar_section_name span {
+  display: inline-block;
+}

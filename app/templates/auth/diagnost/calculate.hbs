@@ -1,0 +1,36 @@
+{{page-title "Calculate"}}
+<NavArea
+  @name={{t "diagnost.calculete"}}
+  @act={{this.cancelAdd}}
+  @btn_name={{t "diagnost.canceladd"}}
+></NavArea>
+<div class="working_area diagnost_calculate">
+  <div class="diagnost_param diagnost_param_name">{{t "diagnost.results.logfile"}}</div>
+  <div class="diagnost_param">
+    <span>{{@model.name}}</span> (<span>{{format-date @model.start}} {{format-time @model.start format='hhmmss'}}</span>
+    -
+    <span>{{format-date @model.end}} {{format-time @model.end format='hhmmss'}}</span>)
+  </div>
+  <div class="diagnost_param diagnost_param_name">{{t "diagnost.results.projectname"}}</div>
+  <div class="diagnost_param">{{@model.unit.activeproject.name}}</div>
+  <div class="diagnost_param diagnost_param_name">{{t "diagnost.calculate.selectstart"}}</div>
+  <DTInput @value={{this.start}} @updater={{this.updateStart}} @isDisabled={{this.isRangeDisabled}}></DTInput>
+  <div class="diagnost_param diagnost_param_name">{{t "diagnost.calculate.selectend"}}</div>
+  <DTInput @value={{this.end}} @updater={{this.updateEnd}} @isDisabled={{this.isRangeDisabled}}></DTInput>
+  <div class="diag_calc_btn_panel">
+    {{#if this.isCalculated}}
+      <button type="button" class="btn_primary" {{on 'click' this.cancelAdd}}>{{t "diagnost.calculate.result"}}</button>
+    {{else}}
+      <button type="button" class="btn_primary" {{on 'click' this.onCalculate}}>{{t "diagnost.calculate.calculate"}}</button>
+    {{/if}}
+    {{#if this.isNewRange}}
+      <button type="button" class="btn_secondary" {{on 'click' this.onNewRange}}>{{t "diagnost.calculate.newrange"}}</button>
+    {{else}}
+      <button type="button" class="btn_secondary" disabled>{{t "diagnost.calculate.newrange"}}</button>
+    {{/if}}
+    <button type="button" class="btn_secondary" {{on 'click' this.onNewLog}}>{{t "diagnost.calculate.newlog"}}</button>
+  </div>
+  {{#if this.isCalculating}}
+    <JobProgress @guid={{this.guid}} @completed={{this.onCalculationFinished}}></JobProgress>
+  {{/if}}
+</div>

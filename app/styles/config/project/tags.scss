@@ -1,0 +1,124 @@
+/*!
+ * Copyright (c) 2021.
+ * All rights reserved by Simcode
+ */
+
+.tags_nav_area {
+  @extend %flex-shared;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-right: $margin_normal;
+}
+
+.filter_wrapper {
+  padding-left: $margin_normal;
+  padding-top: $margin_l;
+}
+
+.filter_search_type {
+  width: 200px;
+}
+
+.filter_search_value {
+  vertical-align: top;
+  width: 410px;
+  font-size: $font_size_x;
+}
+.a_btn {
+  vertical-align: bottom;
+}
+
+.tags_list_area {
+  height: calc(100vh - #{$header_info_size+143px});
+  width: 830px;
+  background-color: $bg_color_secondary;
+  border-radius: 5px;
+  margin-top: $margin_sm;
+  margin-right: $margin_xs*1.5;
+  @extend %flex-shared;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.tags_list_line {
+  @extend %flex-shared;
+  justify-content: flex-start;
+  height: $cell_height;
+  line-height: $cell_height;
+  padding-left: $margin_normal;
+  padding-right: $margin_normal;
+  flex-wrap: nowrap;
+  border-bottom: 1px solid $color_border_gray;
+  font-size: $font_size_x;
+}
+
+.tags_list_caption {
+  color: $color_primary;
+  font-weight: $font_weight_dark;
+}
+
+.tags_list_cell_1 {
+  flex: 0 0 40px;
+}
+
+.tags_list_cell_2 {
+  flex: 0 0 256px;
+}
+
+.tags_list_cell_3 {
+  flex: 1 1 550px;
+  overflow: hidden;
+}
+
+.tag_area {
+  height: calc(100vh - #{$header_info_size+143px});
+  width: 550px;
+  flex-grow: 1;
+  background-color: $bg_color_secondary;
+  border-radius: 5px;
+  margin-top: $margin_sm;
+  overflow: hidden;
+  @extend %flex-shared;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.empty_tag {
+  margin-top: $margin_xxl;
+  font-size: $font_size_xxx;
+  color: $color_primary;
+  text-align: center;
+}
+
+.tag_title {
+  @extend %flex-shared;
+  justify-content: space-between;
+  height: 70px;
+  padding-left: $margin_normal;
+  padding-right: $margin_normal;
+  border: 1px solid $color_border_gray;
+}
+
+.tag_title div {
+  vertical-align: bottom;
+  color: $color_primary;
+  font-weight: $font_weight_dark;
+  font-size: $font_size_xx;
+  line-height: 70px;
+}
+
+.tag_title div span {
+  margin-left: $margin_normal/2;
+}
+
+.tag_info_wrapper {
+  @extend %flex-shared;
+  flex-direction: column;
+  padding-left: $margin_normal;
+  padding-top: $margin_l;
+}
+
+.tag_ident_list {
+  overflow-y: scroll;
+}

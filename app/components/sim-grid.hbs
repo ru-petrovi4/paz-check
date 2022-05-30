@@ -1,0 +1,17 @@
+<div class="grid_holder">
+  <div class="grid_row">
+    {{#each @columns as |column|}}
+      {{#component column.headerComponent column=column meta=column.meta}}
+      {{/component}}
+    {{/each}}
+  </div>
+
+  {{#each @rows as |row|}}
+    <div class="grid_row">
+      {{#each @columns as |column|}}
+        {{#component column.cellComponent value=(get row column.valuePath) meta=row.meta effect=column.meta.effect}}
+        {{/component}}
+      {{/each}}
+    </div>
+  {{/each}}
+</div>

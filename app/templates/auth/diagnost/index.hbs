@@ -1,0 +1,39 @@
+{{page-title "Index"}}
+<NavArea
+  @name={{t "diagnost.loglisttitle"}}
+  @act={{this.addLog}}
+  @btn_name={{t "diagnost.addlog"}}
+></NavArea>
+<div class="working_area diagnost_result">
+  <div class="list_line list_line_caption">
+    <div class="log_item1">{{t "diagnost.results.name"}}</div>
+    <div class="log_item1">{{t "diagnost.results.analyzedate"}}</div>
+    <div class="log_item1">{{t "diagnost.results.logfile"}}</div>
+    <div class="log_item1">{{t "diagnost.results.projectname"}}</div>
+    <div class="log_item1">{{t "diagnost.results.startdate"}}</div>
+    <div class="log_item1">{{t "diagnost.results.enddate"}}</div>
+    <div class="log_item1">{{t "diagnost.results.descr"}}</div>
+    <div class="log_item_grow">&nbsp;</div>
+    <div class="log_item_last">&nbsp;</div>
+  </div>
+  <div class="logs_list">
+    {{#each @model.results as |result|}}
+      <div class="list_line">
+        <div class="log_item1 paz_clickable_link">
+          <LinkTo @route="auth.diagnost.result" @model={{result.id}}>{{result.name}}</LinkTo></div>
+        <div class="log_item1">{{format-date result.alalyzedate}} {{format-time result.alalyzedate
+                                                                                format='hhmmss'}}</div>
+        <div class="log_item1">{{result.logfile}}</div>
+        <div class="log_item1">{{result.projectname}}</div>
+        <div class="log_item1">{{format-date result.start}} {{format-time result.start format='hhmmss'}}</div>
+        <div class="log_item1">{{format-date result.end}} {{format-time result.end format='hhmmss'}}</div>
+        <div class="log_item1">{{result.descr}}</div>
+        <div class="log_item_grow">&nbsp;</div>
+        <div class="log_item_last">
+          <span class="icon_btn" {{on 'click' (fn this.onDelete result)}}><img src="/images/btn_del.svg" alt={{t
+            "icons.delicon"}}></span>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</div>

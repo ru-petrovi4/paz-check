@@ -1,0 +1,124 @@
+/*!
+ * Copyright (c) 2021.
+ * All rights reserved by Simcode
+ */
+
+.info_area {
+  width: 100%;
+  padding-top: $margin_xl;
+  margin-bottom: $margin_normal;
+}
+
+.info_area_small {
+  width: 100%;
+  padding-top: $margin_xs;
+  margin-bottom: $margin_normal;
+}
+
+.info_wrapper {
+  @extend %flex-shared;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.tabs_wrapper {
+  @extend %flex-shared;
+  align-items: center;
+  justify-content: center;
+}
+
+.info_btn_exit {
+  margin-right: $margin_normal;
+}
+
+.tab_item {
+  height: $form_elem_h_big;
+  width: 279px;
+  background-color: white;
+  font-weight: $font_weight_dark;
+  font-size: $font_size_x;
+  text-align: center;
+  color: $color_primary;
+  margin-right: $margin_sm;
+  border: 0;
+  box-sizing: border-box;
+  border-radius: 0;
+  padding: 0;
+}
+
+.tab_item_small {
+  height: $form_elem_h_small;
+  min-width: 200px;
+  background-color: $bg_color_alternate;
+  font-weight: $font_weight_dark;
+  font-size: $font_size_x;
+  text-align: center;
+  color: $color_primary;
+  margin-right: $margin_xs;
+  border: 0;
+  box-sizing: border-box;
+  border-radius: 0;
+  padding: 0;
+  padding-left: $margin_normal;
+  padding-right: $margin_normal;
+}
+
+.tab_item:last-child {
+  border-radius: 0 25px 25px 0;
+  margin-right: 0;
+}
+
+.tab_item_small:last-child {
+  border-radius: 0 10px 10px 0;
+  margin-right: 0;
+}
+
+.tab_item:first-child {
+  border-radius: 25px 0 0 25px;
+}
+
+.tab_item_small:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+.tab_item_active {
+  background-color: $color_primary;
+  color: white;
+  border: 0;
+}
+
+.tab_item_small_active {
+  border: 1px solid $color_primary;
+}
+
+.back_block {
+  position: absolute;
+  left: $margin_normal;
+}
+
+.back_block span {
+  font-weight: $font_weight_dark;
+  font-size: $font_size_xxx;
+  padding-left: $margin_xs*1.5;
+  vertical-align: middle;
+}
+
+.backname_block {
+  margin-left: $margin_normal;
+}
+
+.backname_block span {
+  font-weight: $font_weight_dark;
+  font-size: $font_size_xxx;
+  padding-left: $margin_xs*1.5;
+  vertical-align: middle;
+}
+
+.btn_back {
+  background-color: white;
+  border: 1px solid #0F4C82;
+  box-sizing: border-box;
+  border-radius: 25px;
+  height: $form_elem_h_normal;
+  width: 60px;
+}

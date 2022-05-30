@@ -1,0 +1,1590 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1278.026mm"
+   height="476.76248mm"
+   viewBox="0 0 1278.026 476.76248"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="Диаграмма_ПАЗ_V2.svg"
+   inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма_время.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 172.76247 : 1"
+       inkscape:vp_y="0 : 999.99997 : 0"
+       inkscape:vp_z="1278 : 172.76247 : 1"
+       inkscape:persp3d-origin="639.00002 : 71.429143 : 1"
+       id="perspective14060" />
+    <linearGradient
+       id="linearGradient12468"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop12466" />
+    </linearGradient>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path12196" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.25194022"
+     inkscape:cx="1901.4711"
+     inkscape:cy="665.35959"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-grids="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid10"
+       originx="0.04425225"
+       originy="-63.031761" />
+    <sodipodi:guide
+       position="264.62758,325.48176"
+       orientation="0,-1"
+       id="guide14747" />
+    <sodipodi:guide
+       position="113.81508,211.71092"
+       orientation="1,0"
+       id="guide15009" />
+    <sodipodi:guide
+       position="100.58592,195.83591"
+       orientation="0,-1"
+       id="guide15079" />
+    <sodipodi:guide
+       position="320.19008,248.75259"
+       orientation="0,-1"
+       id="guide1879" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0.04425225,-63.031759)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.902255;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 254,412.75 -0.405,74.08333"
+       id="path12168-0"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#00a9ff;stroke-width:4.04184;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 121.70833,402.16667 H 1277.9375"
+       id="path8925"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="179.24283"
+       y="454.09851"
+       id="text9490"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488"
+         x="179.24283"
+         y="454.09851"
+         style="font-size:12.7px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">AI405</tspan></text>
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#00a9ff;stroke-width:4.04184;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 121.70833,317.5 H 1277.9375"
+       id="path8925-6"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#00a9ff;stroke-width:4.04646;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 119.0625,240.77083 h 1158.875"
+       id="path8925-6-4"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="67.080002"
+       y="320.66849"
+       id="text9490-9"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-5"
+         x="67.080002"
+         y="320.66849"
+         style="font-size:12.7px;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">Время</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="38.909538"
+       y="242.16145"
+       id="text9490-9-2"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-5-1"
+         x="38.909538"
+         y="242.16145"
+         style="font-size:12.7px;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">Следствия</tspan></text>
+    <circle
+       style="fill:#00a9ff;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path9580"
+       cx="122.17174"
+       cy="401.89169"
+       r="7.9375"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <circle
+       style="fill:#00a9ff;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path9580-9"
+       cx="253.99008"
+       cy="402.17459"
+       r="7.9375"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <circle
+       style="fill:#00a9ff;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path9580-9-3"
+       cx="352.03107"
+       cy="401.66989"
+       r="7.9375"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <circle
+       style="fill:#00a9ff;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path9580-9-3-2"
+       cx="468.73499"
+       cy="401.9155"
+       r="7.9375"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.902255;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 351.89583,412.75 -0.405,74.08333"
+       id="path12168"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="47.170483"
+       y="405.16824"
+       id="text9490-1"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-0"
+         x="47.170483"
+         y="405.16824"
+         style="font-size:12.7px;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">Причины</tspan></text>
+    <rect
+       style="fill:#0065ff;fill-opacity:1;stroke:none;stroke-width:1.19523;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect14103"
+       width="26.45834"
+       height="10.583323"
+       x="320.14581"
+       y="465.66669"
+       ry="4.5357423"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="323.21109"
+       y="474.74078"
+       id="text14107"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan14105"
+         x="323.21109"
+         y="474.74078"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke-width:0.264583">HiHi</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="392.35593"
+       y="444.89764"
+       id="text9490-3-9"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-8-8"
+         x="392.35593"
+         y="444.89764"
+         style="font-size:12.7px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">FR301</tspan></text>
+    <rect
+       style="fill:#0065ff;fill-opacity:1;stroke:none;stroke-width:1.19523;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect14103-5-2"
+       width="26.45834"
+       height="10.583323"
+       x="222.25"
+       y="444.5"
+       ry="4.5357423"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="223.70978"
+       y="453.4949"
+       id="text14107-1-6"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan14105-6-3"
+         x="223.70978"
+         y="453.4949"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke-width:0.264583">LoLo</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.720082;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 468.3125,412.75 v 37.04167"
+       id="path12168-9-4"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#00a9ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 468.3125,317.5 v 26.45833"
+       id="path8925-7"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <circle
+       style="fill:#00a9ff;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path9580-9-7"
+       cx="375.22922"
+       cy="241.10609"
+       r="7.9375"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.24132;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 376.11333,89.958333 -0.405,140.229167"
+       id="path12168-90"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="335.20358"
+       y="213.28381"
+       id="text9490-7"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-2"
+         x="335.20358"
+         y="213.28381"
+         style="font-size:12.7px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">Э-1</tspan></text>
+    <ellipse
+       style="fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.40315;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path14337"
+       cx="364.47601"
+       cy="208.63408"
+       rx="5.7097254"
+       ry="5.4312534"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="361.39084"
+       y="212.51001"
+       id="text14107-8"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan14105-5"
+         x="361.39084"
+         y="212.51001"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke-width:0.264583">З</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="310.02359"
+       y="195.49484"
+       id="text9490-7-8"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-2-1"
+         x="310.02359"
+         y="195.49484"
+         style="font-size:12.7px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">UV-211</tspan></text>
+    <ellipse
+       style="fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.40315;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path14337-28"
+       cx="364.56604"
+       cy="190.97638"
+       rx="5.7097254"
+       ry="5.4312534"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="361.48087"
+       y="194.85231"
+       id="text14107-8-5"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan14105-5-2"
+         x="361.48087"
+         y="194.85231"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke-width:0.264583">З</tspan></text>
+    <circle
+       style="fill:#00a9ff;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path9580-2"
+       cx="121.64664"
+       cy="240.6886"
+       r="7.9375"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="542.26691"
+       y="198.12241"
+       id="text9490-7-8-66-4"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-2-1-6-3"
+         x="542.26691"
+         y="198.12241"
+         style="font-size:12.7px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">Э-2</tspan></text>
+    <ellipse
+       style="fill:#ffab27;fill-opacity:1;stroke:none;stroke-width:1.40315;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path14337-28-0-0"
+       cx="573.69617"
+       cy="192.76852"
+       rx="5.7097254"
+       ry="5.4312534"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="570.61096"
+       y="196.64445"
+       id="text14107-8-5-9-9"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan14105-5-2-5-2"
+         x="570.61096"
+         y="196.64445"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke-width:0.264583">З</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="112.26965"
+       y="351.45966"
+       id="text9490-9-0"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-5-6"
+         x="112.26965"
+         y="351.45966"
+         style="font-size:8.46667px;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">17:55</tspan></text>
+    <circle
+       style="fill:#00a9ff;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path9580-21"
+       cx="121.66702"
+       cy="317.06903"
+       r="7.9375"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="113.13879"
+       y="363.53677"
+       id="text9490-9-0-0"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-5-6-0"
+         x="113.13879"
+         y="363.53677"
+         style="font-size:8.46667px;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">24.05.2021</tspan></text>
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#00a9ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 254,317.5 v 26.45833"
+       id="path8925-7-8-6-0"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="233.59125"
+       y="351.61893"
+       id="text9490-9-0-6"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-5-6-5"
+         x="233.59125"
+         y="351.61893"
+         style="font-size:8.46667px;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">11:45:46</tspan></text>
+    <circle
+       style="fill:#00a9ff;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path9580-9-7-7-5"
+       cx="812.00989"
+       cy="240.12799"
+       r="7.9375"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.8044;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 812.67573,198.4375 -0.405,29.10417"
+       id="path12168-90-17"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="746.99268"
+       y="213.35289"
+       id="text9490-7-8-8"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-2-1-2"
+         x="746.99268"
+         y="213.35289"
+         style="font-size:12.7px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">UV-207</tspan></text>
+    <ellipse
+       style="fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1.40315;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path14337-28-5"
+       cx="801.53516"
+       cy="208.83443"
+       rx="5.7097254"
+       ry="5.4312534"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="798.44995"
+       y="212.71036"
+       id="text14107-8-5-3"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan14105-5-2-7"
+         x="798.44995"
+         y="212.71036"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke-width:0.264583">З</tspan></text>
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#00a9ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 375.70833,291.04167 V 317.5"
+       id="path8925-7-8-1-4"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0885045;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect15665"
+       width="1277.9375"
+       height="476.67398"
+       x="0"
+       y="63.076012"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:0.595331;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="175.16568"
+       y="474.37372"
+       id="text9490-3-9-2"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-8-8-5"
+         x="175.16568"
+         y="474.37372"
+         style="font-size:12.7px;fill:#000000;fill-opacity:0.595331;stroke:none;stroke-width:0.264583;stroke-opacity:1">TR169</tspan></text>
+    <rect
+       style="fill:#faffff;fill-opacity:1;stroke:#0065ff;stroke-width:1.19523;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect14103-5-2-5"
+       width="26.45834"
+       height="10.583323"
+       x="220.93727"
+       y="463.95111"
+       ry="4.5357423"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#0065ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="224.10359"
+       y="472.94601"
+       id="text14107-1-6-8"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan14105-6-3-4"
+         x="224.10359"
+         y="472.94601"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#0065ff;fill-opacity:1;stroke-width:0.264583">HiHi</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.82728;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.256809"
+       id="rect2758-0-2"
+       width="79.375"
+       height="44.979176"
+       x="171.97917"
+       y="437.88541"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="277.13867"
+       y="454.09854"
+       id="text9490-93"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-94"
+         x="277.13867"
+         y="454.09854"
+         style="font-size:12.7px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">AI405</tspan></text>
+    <rect
+       style="fill:#00aeff;fill-opacity:1;stroke:none;stroke-width:1.19523;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect14103-5-2-3"
+       width="26.45834"
+       height="10.583323"
+       x="320.14581"
+       y="444.50003"
+       ry="4.5357423"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="321.60559"
+       y="453.49493"
+       id="text14107-1-6-4"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan14105-6-3-7"
+         x="321.60559"
+         y="453.49493"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke-width:0.264583">LoLo</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="274.91092"
+       y="475.44803"
+       id="text9490-93-0"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-94-0"
+         x="274.91092"
+         y="475.44803"
+         style="font-size:12.7px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">TR169</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#0065ff;stroke-width:1.82728;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2758-0-2-4"
+       width="79.375"
+       height="44.979176"
+       x="269.875"
+       y="437.88541"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#0065ff;fill-opacity:1;stroke:none;stroke-width:1.19523;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect14103-5-2-1"
+       width="26.45834"
+       height="10.583323"
+       x="436.5625"
+       y="433.91666"
+       ry="4.5357423"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="438.02228"
+       y="442.91156"
+       id="text14107-1-6-0"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan14105-6-3-9"
+         x="438.02228"
+         y="442.91156"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke-width:0.264583">LoLo</tspan></text>
+    <circle
+       style="fill:#00a9ff;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path9580-9-3-2-4"
+       cx="569.27661"
+       cy="401.91553"
+       r="7.9375"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="492.89758"
+       y="444.89767"
+       id="text9490-3-9-26"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-8-8-8"
+         x="492.89758"
+         y="444.89767"
+         style="font-size:12.7px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">FR307</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.720082;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 568.85416,412.75003 V 449.7917"
+       id="path12168-9-4-3"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <circle
+       style="fill:#00a9ff;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path9580-9-3-2-4-4"
+       cx="677.75574"
+       cy="401.9155"
+       r="7.9375"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="593.02264"
+       y="445.08328"
+       id="text9490-3-9-26-4"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-8-8-8-8"
+         x="593.02264"
+         y="445.08328"
+         style="font-size:12.7px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">TSH136</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.720082;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 677.33333,412.75 v 37.04167"
+       id="path12168-9-4-3-6"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#0065ff;fill-opacity:1;stroke:none;stroke-width:1.19523;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect14103-5-2-1-4-6"
+       width="26.45834"
+       height="10.583323"
+       x="537.10419"
+       y="433.91666"
+       ry="4.5357423"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="538.56396"
+       y="442.91156"
+       id="text14107-1-6-0-4-1"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan14105-6-3-9-3-5"
+         x="538.56396"
+         y="442.91156"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke-width:0.264583">LoLo</tspan></text>
+    <rect
+       style="fill:#0065ff;fill-opacity:1;stroke:none;stroke-width:1.19523;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect14103-8"
+       width="26.45834"
+       height="10.583323"
+       x="645.58337"
+       y="433.91666"
+       ry="4.5357423"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="648.64862"
+       y="442.99075"
+       id="text14107-3"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan14105-0"
+         x="648.64862"
+         y="442.99075"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke-width:0.264583">HiHi</tspan></text>
+    <circle
+       style="fill:#00a9ff;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path9580-9-3-2-4-0"
+       cx="889.95306"
+       cy="401.9155"
+       r="7.9375"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="808.19025"
+       y="444.52634"
+       id="text9490-3-9-26-3"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-8-8-8-4"
+         x="808.19025"
+         y="444.52634"
+         style="font-size:12.7px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">PSL205</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.720082;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 889.52977,412.75 v 37.04167"
+       id="path12168-9-4-3-3"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#0065ff;fill-opacity:1;stroke:none;stroke-width:1.19523;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect14103-5-2-1-4-6-9"
+       width="26.45834"
+       height="10.583323"
+       x="857.78064"
+       y="433.91663"
+       ry="4.5357423"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="859.24042"
+       y="442.91153"
+       id="text14107-1-6-0-4-1-9"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan14105-6-3-9-3-5-8"
+         x="859.24042"
+         y="442.91153"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke-width:0.264583">LoLo</tspan></text>
+    <circle
+       style="fill:#00a9ff;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path9580-9-3-2-9"
+       cx="1016.9534"
+       cy="401.9155"
+       r="7.9375"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="940.5741"
+       y="444.89764"
+       id="text9490-3-9-1"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-8-8-9"
+         x="940.5741"
+         y="444.89764"
+         style="font-size:12.7px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">FR303</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.720082;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1016.5307,412.75 v 37.04167"
+       id="path12168-9-4-1"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#0065ff;fill-opacity:1;stroke:none;stroke-width:1.19523;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect14103-5-2-1-1"
+       width="26.45834"
+       height="10.583323"
+       x="984.78064"
+       y="433.91666"
+       ry="4.5357423"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="986.24042"
+       y="442.91156"
+       id="text14107-1-6-0-8"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan14105-6-3-9-5"
+         x="986.24042"
+         y="442.91156"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke-width:0.264583">LoLo</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="310.77039"
+       y="176.14211"
+       id="text9490-7-8-3"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-2-1-1"
+         x="310.77039"
+         y="176.14211"
+         style="font-size:12.7px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">UV-212</tspan></text>
+    <ellipse
+       style="fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.40315;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path14337-28-09"
+       cx="365.31284"
+       cy="171.62364"
+       rx="5.7097254"
+       ry="5.4312534"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="362.22766"
+       y="175.49957"
+       id="text14107-8-5-65"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan14105-5-2-0"
+         x="362.22766"
+         y="175.49957"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke-width:0.264583">З</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="310.54218"
+       y="157.71761"
+       id="text9490-7-8-3-9"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-2-1-1-8"
+         x="310.54218"
+         y="157.71761"
+         style="font-size:12.7px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">UV-213</tspan></text>
+    <ellipse
+       style="fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.40315;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path14337-28-09-6"
+       cx="365.08463"
+       cy="153.19914"
+       rx="5.7097254"
+       ry="5.4312534"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="361.99945"
+       y="157.07507"
+       id="text14107-8-5-65-3"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan14105-5-2-0-5"
+         x="361.99945"
+         y="157.07507"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke-width:0.264583">З</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="310.35794"
+       y="139.19678"
+       id="text9490-7-8-3-9-3"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-2-1-1-8-9"
+         x="310.35794"
+         y="139.19678"
+         style="font-size:12.7px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">UV-214</tspan></text>
+    <ellipse
+       style="fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.40315;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path14337-28-09-6-5"
+       cx="364.90039"
+       cy="134.67831"
+       rx="5.7097254"
+       ry="5.4312534"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="361.81522"
+       y="138.55424"
+       id="text14107-8-5-65-3-0"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan14105-5-2-0-5-4"
+         x="361.81522"
+         y="138.55424"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke-width:0.264583">З</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="303.30756"
+       y="121.46811"
+       id="text9490-7-8-3-9-3-1"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-2-1-1-8-9-4"
+         x="303.30756"
+         y="121.46811"
+         style="font-size:12.7px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">EUV-201</tspan></text>
+    <ellipse
+       style="fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.40315;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path14337-28-09-6-5-9"
+       cx="364.71896"
+       cy="116.20705"
+       rx="5.7097254"
+       ry="5.4312534"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="360.61273"
+       y="120.08298"
+       id="text14107-8-5-65-3-0-5"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan14105-5-2-0-5-4-0"
+         x="360.61273"
+         y="120.08298"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke-width:0.264583">О</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="332.70013"
+       y="102.95393"
+       id="text9490-7-4-5-1"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-2-9-5-1"
+         x="332.70013"
+         y="102.95393"
+         style="font-size:12.7px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">Н-1</tspan></text>
+    <ellipse
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.40315;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path14337-2-6-2"
+       cx="364.59796"
+       cy="97.779114"
+       rx="5.7097254"
+       ry="5.4312534"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="360.59387"
+       y="101.5894"
+       id="text14107-8-6-4-4"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan14105-5-1-9-0"
+         x="360.59387"
+         y="101.5894"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke-width:0.264583">С</tspan></text>
+    <circle
+       style="fill:#00a9ff;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path9580-9-7-5"
+       cx="584.72424"
+       cy="241.09589"
+       r="7.9375"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.692608;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 585.13417,185.20833 -0.405,43.65625"
+       id="path12168-90-7"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="541.66998"
+       y="214.16263"
+       id="text9490-7-4-5-1-3"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-2-9-5-1-9"
+         x="541.66998"
+         y="214.16263"
+         style="font-size:12.7px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">Н-3</tspan></text>
+    <ellipse
+       style="fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.40315;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path14337-2-6-2-3"
+       cx="573.56781"
+       cy="208.98781"
+       rx="5.7097254"
+       ry="5.4312534"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="569.56372"
+       y="212.7981"
+       id="text14107-8-6-4-4-8"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan14105-5-1-9-0-0"
+         x="569.56372"
+         y="212.7981"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke-width:0.264583">С</tspan></text>
+    <circle
+       style="fill:#00a9ff;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path9580-9-7-1"
+       cx="719.45215"
+       cy="241.10609"
+       r="7.9375"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.869426;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 720.07167,161.39583 -0.405,68.79167"
+       id="path12168-90-3"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="653.99213"
+       y="213.08539"
+       id="text9490-7-8-7"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-2-1-5"
+         x="653.99213"
+         y="213.08539"
+         style="font-size:12.7px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">UV-208</tspan></text>
+    <ellipse
+       style="fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.40315;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path14337-28-49"
+       cx="708.53455"
+       cy="208.56693"
+       rx="5.7097254"
+       ry="5.4312534"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="705.4494"
+       y="212.44287"
+       id="text14107-8-5-99"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan14105-5-2-3"
+         x="705.4494"
+         y="212.44287"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke-width:0.264583">З</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="654.73889"
+       y="193.73267"
+       id="text9490-7-8-3-6"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-2-1-1-6"
+         x="654.73889"
+         y="193.73267"
+         style="font-size:12.7px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">UV-209</tspan></text>
+    <ellipse
+       style="fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.40315;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path14337-28-09-5"
+       cx="709.28137"
+       cy="189.2142"
+       rx="5.7097254"
+       ry="5.4312534"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="706.19617"
+       y="193.09013"
+       id="text14107-8-5-65-6"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan14105-5-2-0-3"
+         x="706.19617"
+         y="193.09013"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke-width:0.264583">З</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="654.51068"
+       y="175.30817"
+       id="text9490-7-8-3-9-5"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-2-1-1-8-8"
+         x="654.51068"
+         y="175.30817"
+         style="font-size:12.7px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">UV-210</tspan></text>
+    <ellipse
+       style="fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.40315;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path14337-28-09-6-3"
+       cx="709.05316"
+       cy="170.7897"
+       rx="5.7097254"
+       ry="5.4312534"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="705.96796"
+       y="174.66563"
+       id="text14107-8-5-65-3-2"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan14105-5-2-0-5-2"
+         x="705.96796"
+         y="174.66563"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke-width:0.264583">З</tspan></text>
+    <circle
+       style="fill:#00a9ff;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path9580-9-7-7-5-3"
+       cx="899.32245"
+       cy="240.12798"
+       r="7.9375"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.8044;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 899.98833,198.4375 -0.405,29.10417"
+       id="path12168-90-17-8"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="848.13019"
+       y="213.153"
+       id="text9490-7-4-5-1-3-1"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-2-9-5-1-9-9"
+         x="848.13019"
+         y="213.153"
+         style="font-size:12.7px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">ПК-1</tspan></text>
+    <ellipse
+       style="fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.40315;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path14337-2-6-2-3-4"
+       cx="888.42944"
+       cy="208.89709"
+       rx="5.7097254"
+       ry="5.4312534"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="884.42535"
+       y="212.70738"
+       id="text14107-8-6-4-4-8-1"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan14105-5-1-9-0-0-3"
+         x="884.42535"
+         y="212.70738"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#faffff;fill-opacity:1;stroke-width:0.264583">С</tspan></text>
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#00a9ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 351.89583,317.5 v 26.45833"
+       id="path8925-7-8-6-0-2"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="331.67032"
+       y="351.54977"
+       id="text9490-9-0-6-8"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-5-6-5-9"
+         x="331.67032"
+         y="351.54977"
+         style="font-size:8.46667px;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">11:48:27</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="355.71246"
+       y="289.6362"
+       id="text9490-9-0-6-8-7"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-5-6-5-9-4"
+         x="355.71246"
+         y="289.6362"
+         style="font-size:8.46667px;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">11:48:29</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="448.25858"
+       y="351.73541"
+       id="text9490-9-0-6-8-9"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-5-6-5-9-8"
+         x="448.25858"
+         y="351.73541"
+         style="font-size:8.46667px;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">11:48:31</tspan></text>
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#00a9ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 566.20833,317.5 v 26.45833"
+       id="path8925-7-5"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="546.15442"
+       y="351.73541"
+       id="text9490-9-0-6-8-9-4"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-5-6-5-9-8-9"
+         x="546.15442"
+         y="351.73541"
+         style="font-size:8.46667px;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">11:51:16</tspan></text>
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#00a9ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 582.08333,291.04165 v 26.45833"
+       id="path8925-7-8-1-4-8"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="562.08746"
+       y="289.63617"
+       id="text9490-9-0-6-8-7-7"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-5-6-5-9-4-8"
+         x="562.08746"
+         y="289.63617"
+         style="font-size:8.46667px;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">11:51:17</tspan></text>
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#00a9ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 677.33333,317.5 v 26.45833"
+       id="path8925-7-5-2"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="657.27942"
+       y="351.73541"
+       id="text9490-9-0-6-8-9-4-9"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-5-6-5-9-8-9-1"
+         x="657.27942"
+         y="351.73541"
+         style="font-size:8.46667px;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">11:51:27</tspan></text>
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#00a9ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 719.66667,291.04167 V 317.5"
+       id="path8925-7-8-1-4-8-9"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="699.67078"
+       y="289.63617"
+       id="text9490-9-0-6-8-7-7-4"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-5-6-5-9-4-8-7"
+         x="699.67078"
+         y="289.63617"
+         style="font-size:8.46667px;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">11:51:28</tspan></text>
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#00a9ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 809.625,291.04167 V 317.5"
+       id="path8925-7-8-1-4-8-9-3"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="789.62915"
+       y="289.63617"
+       id="text9490-9-0-6-8-7-7-4-3"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-5-6-5-9-4-8-7-6"
+         x="789.62915"
+         y="289.63617"
+         style="font-size:8.46667px;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">11:51:29</tspan></text>
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#00a9ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 889,317.5 v 26.45833"
+       id="path8925-7-5-2-6"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="868.94611"
+       y="351.73541"
+       id="text9490-9-0-6-8-9-4-9-6"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-5-6-5-9-8-9-1-1"
+         x="868.94611"
+         y="351.73541"
+         style="font-size:8.46667px;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">11:51:55</tspan></text>
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#00a9ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 899.58333,291.04165 v 26.45833"
+       id="path8925-7-8-1-4-8-9-3-8"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="879.58746"
+       y="289.63617"
+       id="text9490-9-0-6-8-7-7-4-3-7"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-5-6-5-9-4-8-7-6-2"
+         x="879.58746"
+         y="289.63617"
+         style="font-size:8.46667px;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">11:51:56</tspan></text>
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#00a9ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1016,317.5 v 26.45833"
+       id="path8925-7-5-2-6-4"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       x="995.94611"
+       y="351.73541"
+       id="text9490-9-0-6-8-9-4-9-6-5"
+       inkscape:export-filename="C:\_Work\Project\PAZ\Диаграмма время_группа без таймера.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan9488-5-6-5-9-8-9-1-1-7"
+         x="995.94611"
+         y="351.73541"
+         style="font-size:8.46667px;fill:#0085ff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">11:51:56</tspan></text>
+  </g>
+</svg>

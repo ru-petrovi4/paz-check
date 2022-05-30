@@ -1,0 +1,113 @@
+{{#if this.isModal}}
+  <ModalDialog
+    @containerClass='paz_modal_lic_container'
+    @overlayClass='paz_overlay'
+    @onClickOverlay= {{this.onCancel}}
+  >
+    <div class="paz_modal_title">
+      {{#if this.isNew}}
+        {{t "diagrams.diagram.newcause"}}
+      {{else}}
+        {{t "diagrams.diagram.editcause"}} {{@meta.effect.name}}
+      {{/if}}
+    </div>
+    <div class="paz_modal_working">
+      <label for="login" class="lic_modal_label login_form_item">{{t "diagrams.diagram.limit"}}</label>
+      <Input @type="text" name="login" class="lic_modal_input login_form_item" @value={{this.cause.limit}}/>
+      <label for="login" class="lic_modal_label login_form_item">{{t "diagrams.diagram.delay"}}</label>
+      <Input @type="text" name="login" class="lic_modal_input login_form_item" @value={{this.cause.delay}}/>
+      {{#each this.lines as |identity|}}
+        <div class="modal_flex_wrapper">
+          <div>
+            <label for="login" class="lic_modal_label login_form_item">{{t "diagrams.diagram.tagname"}}</label>
+            <PowerSelect
+              @triggerClass="select_search filter_search_type search_select"
+              @selected={{identity.tag}}
+              @searchEnabled={{true}}
+              @search={{this.searchTag}}
+              @onChange={{this.onChangeTag}} as |tag|>
+              {{tag.name}}
+            </PowerSelect>
+          </div>
+          <div>
+            <label for="login" class="lic_modal_label login_form_item">{{t "diagrams.diagram.ident"}}</label>
+            <PowerSelect
+              @triggerClass="select_search filter_search_type search_select"
+              @options={{identity.tag.identities}}
+              @selected={{identity}}
+              @onChange={{this.onChangeIdentity}} as |identity|>
+              {{#if identity.value}}
+                {{identity.value}}
+              {{else}}
+                {{identity.identifier}}
+              {{/if}}
+            </PowerSelect>
+          </div>
+        </div>
+      {{/each}}
+      {{#if this.isNew}}
+        <div class="modal_flex_wrapper">
+          <div>
+            <label for="login" class="lic_modal_label login_form_item">{{t "diagrams.diagram.tagname"}}</label>
+            <PowerSelect
+              @triggerClass="select_search filter_search_type search_select"
+              @selected={{this.tag}}
+              @searchEnabled={{true}}
+              @search={{this.searchTag}}
+              @onChange={{this.onChangeTag}} as |tag|>
+              {{tag.name}}
+            </PowerSelect>
+          </div>
+          <div>
+            <label for="login" class="lic_modal_label login_form_item">{{t "diagrams.diagram.ident"}}</label>
+            <PowerSelect
+              @triggerClass="select_search filter_search_type search_select"
+              @options={{this.identities}}
+              @selected={{this.identity}}
+              @onChange={{this.onChangeIdentity}} as |identity|>
+              {{#if identity.value}}
+                {{identity.value}}
+              {{else}}
+                {{identity.identifier}}
+              {{/if}}
+            </PowerSelect>
+          </div>
+        </div>
+        <button {{on 'click' this.onAdd}} type="button" class="btn_primary login_form_item">
+          {{t "diagrams.dadd"}}
+        </button>
+      {{/if}}
+    </div>
+    <div class="lic_modal_footer">
+      {{#if this.isNew}}
+        <button {{on 'click' this.onSave}} type="button" class="btn_primary login_form_item">
+          {{t "admin.office.modal.savebtn"}}
+        </button>
+      {{else}}
+        <button {{on 'click' this.onDelete}} type="button" class="btn_warn login_form_item">
+          {{t "admin.office.modal.delbtn"}}
+        </button>
+      {{/if}}
+      <button {{on 'click' this.onCancel}} type="button" class="btn_secondary login_form_item">
+        {{t "admin.office.modal.cancelbtn"}}
+      </button>
+    </div>
+  </ModalDialog>
+{{/if}}
+
+<div class="cause_cell" {{on 'click' this.onClick}}>
+  {{#if @value.new}}
+    <img src="/images/add_btn.svg" alt={{t "diagrams.diagram.neweffect"}}>
+  {{else}}
+    {{#each @value as |item|}}
+      <div>
+        <span>{{item.tag.name}}</span>
+        {{#if item.value}}
+          <span>{{item.value}}</span>
+        {{else}}
+          <span>{{item.identifier}}</span>
+        {{/if}}
+      </div>
+    {{/each}}
+  {{/if}}
+</div>

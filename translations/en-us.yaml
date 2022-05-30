@@ -1,0 +1,212 @@
+header:
+  titleadmin: Administration
+  titlesafety: Safety
+  user:
+    user: User
+    exit: Exit
+    admin: Administration
+  titleconfig: Configuration
+  titlediagnost: Diagnost
+login:
+  welcome: Welcome
+  auth: Authorization
+  login: Login
+  passwd: Password
+  enter: Enter
+index:
+  pagename: Main
+  title: Dashboard
+  exit: Exit
+  error: Login and Passord is not correct!<br>Try again, please.
+  pazlogo: PAZ logo
+  menuarrow: Menu arrow
+  selectunit: Select unit
+  unitname: Unit name
+  btngoto: Goto
+admin:
+  pagename: Admin
+  title: Administration
+  tabs:
+    one: User profile
+    two: Office
+    three: Licence
+  users:
+    pagename: Users
+    title: Users list
+    btnadduser: Add user
+    navsearchfor: Search for
+    navselectoffcice: Select office
+    navselectrole: Select role
+    navselectname: Search by name
+    modal:
+      userinfo: User info
+    table:
+      login: Login
+      name: Name
+      role: Role
+      office: Office
+      lastlogin: Last login
+      access: Access
+      accessrights: Access rights
+      password: Password
+      personnelnumber: Personnel number
+  office:
+    pagename: Office
+    title: Office
+    officeslist: Offices list
+    modal:
+      newoffice: New office
+      editoffice: Edit office
+      labeltxt: Enter office name
+      savebtn: Save
+      cancelbtn: Cancel
+      delbtn: Delete
+  licence:
+    pagename: Licence
+    title: Current licence
+    asklicence: Ask licence
+    uploadlicence: Upload licence file
+    maxunits: Maximum units number
+    unitslist: Unts list
+    progslist: Programs
+    btncreate: Create
+    modal:
+      newunit: New unit
+      editunit: Edit unit
+      labeltxt: Enter unit name
+      savebtn: Save
+      cancelbtn: Cancel
+icons:
+  delicon: Del icon
+  editicon: Edit icon
+  copyicon: Copy icon
+btn:
+  close: Close
+config:
+  pagename: Configuration
+projects:
+  pagename: Projects managment
+  aproject: Current configuration
+  prjname: Name
+  bywhom: By whom loaded
+  changedate: Change date
+  copy: Copy
+  notloaded: Project is not loaded
+  projectlist: Projects list
+  compare: Compare
+  newproject: New project
+  list:
+    name: Name
+    chdata: Data of change
+    bywhom: By whom
+    comment: Comment
+project:
+  tabs:
+    one: About
+    two: Diagrams
+    three: Tags
+    four: Models
+  models:
+    tabs:
+      one: Correct actions
+      two: Safety
+      three: Failures
+      four: Actuators
+filter:
+  selectname: Search by name
+  selectdescr: Search by description
+  selecttags: Search by tags
+tags:
+  newtag: New tag
+  importtags: Import tags
+  emptytag: Select tag
+  tagname: Tag name
+  descr: Description
+  typetag: Enter tag name
+  taginfo: Tag information
+  tagactuator: Actuators
+  addactuators: Add actuators
+  tag:
+    tagname: Tag name
+    tagdescr: Tag description
+    tagext: Teg Additional Info
+    tagdiagrams: Diagrams
+    tagactuator: Actuator
+    tagnew: New tag
+    identity:
+      ident: Identifier
+      eventtype: Event Type
+      value: Value
+diagrams:
+  dlist: Diagrams list
+  dadd: Add
+  dname: Diagram name
+  dchngbywhom: By whom chnged
+  dlastchanged: Last change date
+  diagram:
+    cause: Cause
+    effect: Effect
+    full: Full screen
+    check: Check
+    editmode: Edit mode
+    zoom: Zoom
+    neweffect: New effect
+    editeffect: Edit effect
+    newcause: New cause
+    editcause: Edit cause
+    newitersect: New intersection
+    editintersect: Edit intrsection
+    tagname: Tagname
+    ident: Identifier
+    limit: Limit
+    delay: Delay
+    filter: Filter
+    delete: Delete
+    collapse: Collapse
+models:
+  actuator:
+    actuatortype: Actuator type
+    emptyactuator: Select actuator
+    actuatorinfo: Actuator info
+    actuatorname: Name of actuator
+    actuatorparams: Actuator params
+    actuatornew: New
+insp: Inspector
+dgst: Diagnost
+tst: Test
+sft: Safety
+hlp: Helper
+cfg: Configuration
+RoleAdmin: Administrator
+RoleEng: Engeneer
+RoleUser: User
+diagnost:
+  addlog: Add Log
+  loglisttitle: Analized Logs
+  addanalyse: Add situation
+  calculete: Make calculation
+  canceladd: Cancel
+  loadlog: Upload log
+  logs:
+    filename: File name
+    startdate: Start date
+    enddate: End date
+  results:
+    name: Name
+    descr: Description
+    logfile: Log file
+    projectname: Project name
+    analyzedate: Analyze date
+    startdate: Start date
+    enddate: End date
+  calculate:
+    selectstart: Select start date
+    selectend: Select end date
+    calculate: Calculate
+    result: View result
+    newrange: New date range
+    newlog: New log
+  tabs:
+    diagrams: Diagrams
+    timeline: Timeline
+

@@ -1,0 +1,44 @@
+{{page-title "Diagresult"}}
+<section class="diag_wrapper">
+  {{#unless this.isFullScreen}}
+    <NavArea
+      @name={{@model.name}}
+      @backpage={{@model.name}}
+      @backmodels={{@model.result.id}}
+      @backroute="auth.diagnost.result.diagrams"
+    ></NavArea>
+  {{else}}
+    <div class="diag_fake_div">&nbsp;</div>
+  {{/unless}}
+  <div class="working_area vert_grow work_area_flex">
+    {{#unless this.isFullScreen}}
+      <WorkBar @name={{t "diagrams.diagram.editmode"}}>
+      </WorkBar>
+    {{/unless}}
+    <div class="tools_wrapper">
+      <div>
+        <p>{{t "diagrams.diagram.zoom"}}</p>
+        <PowerSelect
+          @triggerClass="select_search filter_search_type search_select"
+          @options={{this.zoomPercents}}
+          @selected={{this.zoomPercent}}
+          @onChange={{this.onPercentChange}} as |type|>
+          {{type}}
+        </PowerSelect>
+        <button type="button" class="btn_secondary align_top">{{t "diagrams.diagram.filter"}}</button>
+      </div>
+      <div>
+        <p>&nbsp;</p>
+        {{#if this.isFullScreen}}
+          <button type="button" class="btn_secondary"  {{on 'click' this.fullScreen}}>{{t "diagrams.diagram.collapse"}}</button>
+        {{else}}
+          <button type="button" class="btn_secondary" {{on 'click' this.fullScreen}}>{{t "diagrams.diagram.full"}}</button>
+        {{/if}}
+      </div>
+    </div>
+    <SimGrid
+      @columns={{this.columns}}
+      @rows={{this.rows}}
+    ></SimGrid>
+  </div>
+</section>

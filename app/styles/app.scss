@@ -1,0 +1,40 @@
+/*!
+ * Copyright (c) 2021.
+ * All rights reserved by Simcode
+ */
+
+@import "reset.scss";
+@import "var.scss";
+@import "roboto/cyrillic-700";
+@import "open-sans/cyrillic-400";
+@import "open-sans/cyrillic-600";
+@import "open-sans/cyrillic-700";
+@import "mix.scss";
+@import "common.scss";
+
+$ember-power-select-border-color: $color_secondary;
+$ember-power-select-default-border-radius: 10px;
+$ember-power-select-line-height: 46px;
+$ember-power-select-text-color: $color_primary;
+$ember-power-select-trigger-ltr-padding: 0 54px 0 8px !default;
+@import "ember-power-select";
+
+@import "ember-modal-dialog/ember-modal-structure";
+@import "ember-modal-dialog/ember-modal-appearance";
+@import "header.scss";
+@import "navarea.scss";
+@import "workbar.scss";
+@import "admin.scss";
+@import "index.scss";
+@import "login.scss";
+@import "modal.scss";
+@import "config/projects";
+@import "config/project/details";
+@import "config/project/tags";
+@import "tagidentity";
+@import "config/project/diagrams";
+@import "simgrid";
+@import "config/project/models";
+@import "actuator";
+@import "diagnost";
+@import "safety";

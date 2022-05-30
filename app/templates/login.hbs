@@ -1,0 +1,21 @@
+{{page-title "Вход"}}
+<section class="greeting">
+  <div class="greeting_text">
+    {{t "login.welcome"}}
+  </div>
+</section>
+<section class="login_block">
+  <div class="login_wrapper">
+    <div class="login_title">{{t "login.auth"}}</div>
+    <div class="login_error">{{{this.errorMessage}}}</div>
+    <form {{on "submit" this.authenticate}}>
+      <fieldset class="login_form_wrapper">
+        <label for="login" class="login_label login_form_item">{{t "login.login"}}</label>
+        <Input @type="text" name="login" class="login_input login_form_item" @value={{this.name}}/>
+        <label for="passwd" class="login_label login_form_item">{{t "login.passwd"}}</label>
+        <Input @type="password" name="passwd" class="login_input login_form_item"  @value={{this.passwd}}/>
+        <button type="submit" class="btn_primary login_submit login_form_item">{{t "login.enter"}}</button>
+      </fieldset>
+    </form>
+  </div>
+</section>

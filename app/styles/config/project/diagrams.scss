@@ -1,0 +1,193 @@
+/*!
+ * Copyright (c) 2021.
+ * All rights reserved by Simcode
+ */
+
+.diag_list_caption {
+  margin-top: $margin_xl;
+}
+
+.diag_list {
+  height: calc(100vh - #{$header_info_size+$work_bar_height+219px});
+  @extend %flex-shared;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  overflow-y: scroll;
+}
+
+.diag_list_item_1 {
+  padding-left: $margin_xxxl;
+  flex: 0 0 400px;
+}
+
+.diag_list_item_2 {
+  flex: 0 0 350px;
+}
+
+.diag_list_item_3 {
+  flex: 1 1 550px;
+}
+
+.diag_wrapper {
+  height: calc(100vh - #{$header_height+$margin_normal});
+  @extend %flex-shared;
+  flex-direction: column;
+  overflow: hidden;
+  flex-wrap: nowrap;
+}
+
+.diag_fake_div {
+  height: $margin_normal;
+}
+.vert_grow {
+  flex-grow: 1;
+}
+
+.work_area_flex {
+  @extend %flex-shared;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.tools_wrapper {
+  @extend %flex-shared;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  border-bottom: 1px solid $color_border_gray;
+  padding-left: $margin_normal;
+  padding-right: $margin_normal;
+  padding-top: $margin_xl;
+  padding-bottom: $margin_sm;
+}
+
+.tools_wrapper p {
+  color: $color_primary;
+  font-weight: $font_weight_dark;
+  font-size: $font_size_x;
+}
+
+.align_top {
+  vertical-align: top;
+}
+
+.diag_header_cell {
+  height: 186px;
+  white-space: nowrap;
+  position: relative;
+  text-align: center;
+  width: $cell_height;
+  min-width: $cell_height;
+  line-height: $cell_height - 1;
+  border-right: 1px solid $color_border_gray;
+  border-bottom: 1px solid $color_border_gray;
+  font-size: $font_size_sxx;
+  font-weight: $font_weight_dark;
+  cursor: pointer;
+}
+
+.diag_header_cell:last-child {
+  width: 50px;
+}
+
+.diag_effect_vert {
+  height: 136px;
+}
+
+.diag_header_first_cell {
+  width: 275px;
+  min-width: 275px;
+}
+
+.cause_cell {
+  width: 275px;
+  min-width: 275px;
+  font-weight: $font_weight_dark;
+  font-size: $font_size_sxx;
+  line-height: $margin_normal;
+  padding-left: $margin_normal;
+  min-height: $cell_height;
+  padding-top: $margin_xs;
+  padding-bottom: $margin_xs;
+  border-right: 1px solid $color_border_gray;
+  border-bottom: 1px solid $color_border_gray;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cause_cell > div {
+  min-height: 40px;
+  display: flex;
+}
+
+.cause_cell span {
+  display: inline-block;
+  margin: auto;
+}
+
+.cause_cell span:last-child {
+  display: inline-block;
+  background-color: $color_primary;
+  color: white;
+  border-radius: 15px;
+  padding-left: $margin_xs;
+  padding-right: $margin_xs;
+  font-size: $font_size_default;
+}
+
+.diag_cell {
+  width: $cell_height;
+  min-width: $cell_height;
+  line-height: $cell_height;
+  border-right: 1px solid $color_border_gray;
+  border-bottom: 1px solid $color_border_gray;
+  color: $color_primary;
+  font-size: $font_size_sxx;
+  text-align: center;
+  cursor: pointer;
+}
+
+.result_pill {
+  width: 49px;
+  height: 49px;
+  background: url("/images/bg_na.svg");
+  background-size: contain;
+}
+
+.result_pill_ftr {
+  width: 49px;
+  height: 49px;
+  background: url("/images/bg_ftr.svg");
+  color: white;
+  background-size: contain;
+}
+
+.result_pill_tr {
+  width: 49px;
+  height: 49px;
+  background: url("/images/bg_tr.svg");
+  background-size: contain;
+}
+
+.result_pill_ntr {
+  width: 49px;
+  height: 49px;
+  background: url("/images/bg_ntr.svg");
+  color: white;
+  background-size: contain;
+}
+
+.result_pill_ltr {
+  width: 49px;
+  height: 49px;
+  background: url("/images/bg_ltr.svg");
+  background-size: contain;
+}
+
+.result_pill_str {
+  width: 49px;
+  height: 49px;
+  background: url("/images/bg_str.svg");
+  color: white;
+  background-size: contain;
+}
